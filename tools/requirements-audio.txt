@@ -1,0 +1,4 @@
+# One-off voice pre-gain tooling; not needed to build or run the APK.
+numpy>=2.0
+soundfile==0.14.0
+imageio-ffmpeg==0.7.0

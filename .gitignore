@@ -1,0 +1,21 @@
+# Build output
+build/
+.gradle/
+tools/screenshot/app/build/
+tools/screenshot/.gradle/
+test/build/
+
+# Android / IDE
+local.properties
+*.iml
+.idea/
+.cxx/
+captures/
+
+# APK signature sidecar files
+*.idsig
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp

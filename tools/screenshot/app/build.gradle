@@ -1,0 +1,38 @@
+plugins { id 'com.android.application' version '8.5.2' }
+
+android {
+    namespace 'com.stratagemhero.mobile'
+    compileSdk 34
+    defaultConfig {
+        applicationId 'com.stratagemhero.mobile'
+        minSdk 26
+        targetSdk 34
+        versionCode 1
+        versionName '1.0'
+    }
+    sourceSets {
+        main {
+            manifest.srcFile '../../../AndroidManifest.xml'
+            java.srcDirs = ['../../../app/src']
+            res.srcDirs = ['../../../app/res']
+        }
+        test {
+            java.srcDirs = ['../../../test']
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    testOptions {
+        unitTests.includeAndroidResources = true
+        unitTests.all { it.maxHeapSize = '2g' }
+    }
+    lint { abortOnError false }
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'androidx.test:core:1.6.1'
+    testImplementation 'org.robolectric:robolectric:4.14.1'
+}

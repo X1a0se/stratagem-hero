@@ -1,0 +1,128 @@
+[
+  {
+    "id": "eagle_fly_by",
+    "name": "Eagle Fly By",
+    "nameZh": "“飞鹰”掠过",
+    "category": "OFFENSIVE",
+    "code": "UDDUUDDUU",
+    "icon": "st_eg_eagle_strafing_run",
+    "group": "wiki_extra"
+  },
+  {
+    "id": "eagle_gas_airstrike",
+    "name": "Eagle Gas Airstrike",
+    "nameZh": "“飞鹰”毒气空袭",
+    "category": "OFFENSIVE",
+    "code": "URLR",
+    "icon": "st_br_orbital_gas_strike",
+    "group": "wiki_extra"
+  },
+  {
+    "id": "pac_meltagun",
+    "name": "40-K Meltagun",
+    "nameZh": "40-K 热熔枪",
+    "category": "SUPPORT",
+    "code": "DLULLD",
+    "icon": "st_pac_flamethrower",
+    "group": "wiki_extra"
+  },
+  {
+    "id": "pac_apex",
+    "name": "AMW-20 Apex",
+    "nameZh": "AMW-20 尖峰",
+    "category": "SUPPORT",
+    "code": "DLLUDL",
+    "icon": "st_pac_anti_materiel_rifle",
+    "group": "wiki_extra"
+  },
+  {
+    "id": "pac_nova",
+    "name": "LAS-44 Nova",
+    "nameZh": "LAS-44 新星",
+    "category": "SUPPORT",
+    "code": "DLRDD",
+    "icon": "st_eb_laser_cannon",
+    "group": "wiki_extra"
+  },
+  {
+    "id": "eg_maelstrom",
+    "name": "TD-110 Maelstrom",
+    "nameZh": "TD-110 风暴漩涡",
+    "category": "SUPPORT",
+    "code": "LDRDLDULR",
+    "icon": "st_eg_fast_recon_vehicle",
+    "group": "wiki_extra"
+  },
+  {
+    "id": "ge_portable_comms_relay",
+    "name": "Portable Comms Relay",
+    "nameZh": "便携式通信中继站",
+    "category": "MISSION",
+    "code": "UUDDLLD",
+    "icon": "st_ge_cargo_container",
+    "group": "wiki_extra"
+  },
+  {
+    "id": "ge_prospecting_drill",
+    "name": "Prospecting Drill",
+    "nameZh": "勘探钻机",
+    "category": "MISSION",
+    "code": "DDLRDD",
+    "icon": "st_ge_tectonic_drill",
+    "group": "wiki_extra"
+  },
+  {
+    "id": "ge_seize_industrial_complex",
+    "name": "Seize Industrial Complex",
+    "nameZh": "占领工业联合体",
+    "category": "MISSION",
+    "code": "DDDDDUU",
+    "icon": "st_ge_upload_data",
+    "group": "wiki_extra"
+  },
+  {
+    "id": "ge_sssd_delivery",
+    "name": "SSSD Delivery",
+    "nameZh": "运送超级固态硬盘",
+    "category": "MISSION",
+    "code": "DDDDDUU",
+    "icon": "st_ge_upload_data",
+    "group": "wiki_extra"
+  },
+  {
+    "id": "ge_aquifer_drill",
+    "name": "Aquifer Drill",
+    "nameZh": "含水层钻机",
+    "category": "MISSION",
+    "code": "LLLUDRDD",
+    "icon": "st_ge_tectonic_drill",
+    "group": "wiki_extra"
+  },
+  {
+    "id": "ge_e711_extraction_drill",
+    "name": "Activate E-711 Extraction Drill",
+    "nameZh": "启动E-711提取钻机",
+    "category": "MISSION",
+    "code": "DDLLDD",
+    "icon": "st_ge_tectonic_drill",
+    "group": "wiki_extra"
+  },
+  {
+    "id": "ge_tactical_video_camera",
+    "name": "Tactical Video Camera",
+    "nameZh": "战术摄像机",
+    "category": "MISSION",
+    "code": "RDDULLU",
+    "icon": "st_ge_seismic_probe",
+    "group": "wiki_extra"
+  },
+  {
+    "id": "oc_orbital_confetti",
+    "name": "Orbital Confetti",
+    "nameZh": "轨道彩纸秀",
+    "category": "OFFENSIVE",
+    "code": "RDDUUDDUU",
+    "icon": "st_oc_orbital_napalm_barrage",
+    "group": "wiki_extra"
+  }
+]

@@ -1,0 +1,132 @@
+{
+  "general_stratagems": [
+    {"id/icon": "st_ge_resupply", "en_name": "Resupply", "gesture": ["down", "down", "up", "right"], "zh_name": "重新补给"},
+    {"id/icon": "st_ge_reinforce", "en_name": "Reinforce", "gesture": ["up", "down", "right", "left", "up"], "zh_name": "呼叫增援"},
+    {"id/icon": "st_ge_sos_beacon", "en_name": "SOS Beacon", "gesture": ["up", "down", "right", "up"], "zh_name": "SOS"},
+    {"id/icon": "st_ge_hellbomb", "en_name": "Hellbomb", "gesture": ["down", "up", "left", "down", "up", "right", "down", "up"], "zh_name": "地狱火炸弹"},
+    {"id/icon": "st_ge_seaf_artillery", "en_name": "SEAF Artillery", "gesture": ["right", "up", "up", "down"], "zh_name": "超级地球大炮"},
+    {"id/icon": "st_ge_super_earth_flag", "en_name": "Super Earth Flag", "gesture": ["down", "up", "down", "up"], "zh_name": "超级地球旗帜"},
+    {"id/icon": "st_ge_seismic_probe", "en_name": "Seismic Probe", "gesture": ["up", "up", "left", "right", "down", "down"], "zh_name": "地震探测器"},
+    {"id/icon": "st_ge_tectonic_drill", "en_name": "Prospecting Drill", "gesture": ["up", "down", "up", "down", "up", "down"], "zh_name": "地壳钻机"},
+    {"id/icon": "st_ge_illumination_flare", "en_name": "Orbital Illumination Flare", "gesture": ["right", "right", "left", "left"], "zh_name": "轨道照明弹"},
+    {"id/icon": "st_ge_upload_data", "en_name": "Upload Data", "gesture": ["left", "right", "up", "up","up"], "zh_name": "上传数据"},
+    {"id/icon": "st_ge_hive_breaker_drill", "en_name": "Hive Breaker Drill", "gesture": ["left", "up", "down", "right", "down", "down"], "zh_name": "虫巢破坏钻机"},
+    {"id/icon": "st_ge_dark_fluid_vessel", "en_name": "Dark Fluid Vessel", "gesture": ["up", "left", "right", "down", "up","up"], "zh_name": "暗流体容器"},
+    {"id/icon": "st_ge_call_in_super_destroyer", "en_name": "Call In Super Destroyer", "gesture": ["up", "up","down","down","left", "right", "left", "right"], "zh_name": "呼叫超级驱逐舰"},
+    {"id/icon": "st_ge_cargo_container", "en_name": "Cargo Container", "gesture": ["up", "up", "down", "down", "right","down"], "zh_name": "呼叫货物容器"}
+    ],
+  "eagle_stratagems": [
+    {"id/icon": "st_eg_eagle_strafing_run", "en_name": "Eagle Strafing Run", "gesture": ["up", "right", "right"], "zh_name": "飞鹰扫射"},
+    {"id/icon": "st_eg_eagle_airstrike", "en_name": "Eagle Airstrike", "gesture": ["up", "right", "down", "right"], "zh_name": "飞鹰空袭"},
+    {"id/icon": "st_eg_eagle_cluster_bomb", "en_name": "Eagle Cluster Bomb", "gesture": ["up", "right", "down", "down", "right"], "zh_name": "飞鹰集束炸弹"},
+    {"id/icon": "st_eg_eagle_napalm_airstrike", "en_name": "Eagle Napalm Airstrike", "gesture": ["up", "right", "down", "up"], "zh_name": "飞鹰凝固汽油弹空袭"},
+    {"id/icon": "st_eg_jump_pack", "en_name": "Jump Pack", "gesture": ["down", "up", "up", "down", "up"], "zh_name": "LIFT-850 喷射背包"},
+    {"id/icon": "st_eg_eagle_smoke_strike", "en_name": "Eagle Smoke Strike", "gesture": ["up", "right", "up", "down"], "zh_name": "飞鹰烟雾打击"},
+    {"id/icon": "st_eg_eagle_110mm_rocket_pods", "en_name": "Eagle 110mm Rocket Pods", "gesture": ["up", "right", "up", "left"], "zh_name": "飞鹰110mm火箭巢"},
+    {"id/icon": "st_eg_eagle_500kg_bomb", "en_name": "Eagle 500kg Bomb", "gesture": ["up", "right", "down", "down", "down"], "zh_name": "飞鹰500KG炸弹"},
+    {"id/icon": "st_eg_eagle_rearm", "en_name": "Eagle Rearm", "gesture": ["up", "up", "left", "up", "right"], "zh_name": "飞鹰重新武装"},
+    {"id/icon": "st_eg_fast_recon_vehicle", "en_name": "Fast Recon Vehicle", "gesture": ["left","down","right","down","right","down","up"], "zh_name": "M-102 快速侦察载具"},
+    {"id/icon": "st_eg_bastion_mk_xvi", "en_name": "MK XVI", "gesture": ["left","down","right","down","left","down","up","down","up"], "zh_name": "堡垒 MK XVI"}
+  ],
+  "patriotic_administration_center": [
+    {"id/icon": "st_pac_machine_gun", "en_name": "Machine Gun", "gesture": ["down", "left", "down", "up", "right"], "zh_name": "MG-43 机枪"},
+    {"id/icon": "st_pac_anti_materiel_rifle", "en_name": "APW-1 Anti-Materiel Rifle", "gesture": ["down", "left", "right", "up", "down"], "zh_name": "APW-1 反器材步枪"},
+    {"id/icon": "st_pac_stalwart", "en_name": "Stalwart", "gesture": ["down", "left", "down", "up", "up", "left"], "zh_name": "M105 盟友"},
+    {"id/icon": "st_pac_expendable_anti_tank", "en_name": "EAT-17 Expendable Anti-Tank", "gesture": ["down", "down", "left", "up", "right"], "zh_name": "EAT-17 消耗性反坦克筒"},
+    {"id/icon": "st_pac_recoilless_rifle", "en_name": "GR-8 Recoilless Rifle", "gesture": ["down", "left", "right", "right", "left"], "zh_name": "GR-8无后坐炮"},
+    {"id/icon": "st_pac_flamethrower", "en_name": "Flamethrower", "gesture": ["down", "left", "up", "down", "up"], "zh_name": "FLAM-40 火焰喷射器"},
+    {"id/icon": "st_pac_autocannon", "en_name": "Autocannon", "gesture": ["down", "left", "down", "up", "up", "right"], "zh_name": "AC-8机炮"},
+    {"id/icon": "st_pac_heavy_machine_gun", "en_name": "Heavy Machine Gun", "gesture": ["down", "left", "up", "down", "down"], "zh_name": "MG-206 重机枪"},
+    {"id/icon": "st_pac_airburst_rocket_launcher", "en_name": "RL-77 Airburst Rocket Launcher", "gesture": ["down", "up","up","left",  "right"], "zh_name": "RL-77 空爆火箭筒"},
+    {"id/icon": "st_pac_commando", "en_name": "MLS-4X Commando", "gesture": ["down", "left", "up", "down", "right"], "zh_name": "MLS-4X 突击兵"},
+    {"id/icon": "st_pac_railgun", "en_name": "RS-422 Railgun", "gesture": ["down", "right", "down", "up", "left", "right"], "zh_name": "RS-422 磁轨炮"},
+    {"id/icon": "st_pac_spear", "en_name": "Spear", "gesture": ["down", "down", "up", "down", "down"], "zh_name": "FAF-14 飞矛"},
+    {"id/icon": "st_pac_sta_x3_wasp_launcher", "en_name": "staX3 Wasp Launcher", "gesture": ["down", "down", "up", "down", "right"], "zh_name": "StaX3 W.A.S.P 发射器"}
+  ],
+  "orbital_cannons": [
+    {"id/icon": "st_oc_gatling_barrage", "en_name": "Orbital Gatling Barrage", "gesture": ["right", "down", "left", "up", "up"], "zh_name": "轨道加特林轰炸"},
+    {"id/icon": "st_oc_airburst_strike", "en_name": "Orbital Airburst Strike", "gesture": ["right", "right", "right"], "zh_name": "轨道空爆打击"},
+    {"id/icon": "st_oc_120mm_he_barrage", "en_name": "Orbital 120MM HE Barrage", "gesture": ["right", "right", "down", "left", "right", "down"], "zh_name": "轨道120MM高爆弹火力网"},
+    {"id/icon": "st_oc_380mm_he_barrage", "en_name": "Orbital 380MM HE Barrage", "gesture": ["right", "down", "up", "up", "left", "down", "down"], "zh_name": "轨道380MM高爆弹火力网"},
+    {"id/icon": "st_oc_walking_barrage", "en_name": "Orbital Walking Barrage", "gesture": ["right", "down", "right", "down", "right", "down"], "zh_name": "轨道游走式火力网"},
+    {"id/icon": "st_oc_laser", "en_name": "Orbital Laser", "gesture": ["right", "down", "up", "right", "down"], "zh_name": "轨道激光炮"},
+    {"id/icon": "st_oc_railcannon_strike", "en_name": "Orbital Railcannon Strike", "gesture": ["right", "up", "down", "down", "right"], "zh_name": "轨道磁轨炮打击"},
+    {"id/icon": "st_oc_orbital_napalm_barrage", "en_name": "Orbital Napalm Barrage", "gesture": ["right", "right", "down", "left", "right","up"], "zh_name": "轨道凝固汽油弹火力网"}
+  ],
+  "bridge": [
+    {"id/icon": "st_br_orbital_precision_strike", "en_name": "Orbital Precision Strike", "gesture": ["right", "right", "up"], "zh_name": "轨道精准打击"},
+    {"id/icon": "st_br_orbital_gas_strike", "en_name": "Orbital Gas Strike", "gesture": ["right", "right", "down", "right"], "zh_name": "轨道毒气打击"},
+    {"id/icon": "st_br_orbital_ems_strike", "en_name": "Orbital EMS Strike", "gesture": ["right", "right", "left", "down"], "zh_name": "轨道电磁冲击波打击"},
+    {"id/icon": "st_br_orbital_smoke_strike", "en_name": "Orbital Smoke Strike", "gesture": ["right", "right", "down", "up"], "zh_name": "轨道烟雾打击"},
+    {"id/icon": "st_br_hmg_emplacement", "en_name": "HMG Emplacement", "gesture": ["down", "up", "left", "right", "right", "left"], "zh_name": "E/MG101 重机枪部署机架"},
+    {"id/icon": "st_br_shield_generator_relay", "en_name": "Shield Generator Relay", "gesture": ["down", "down", "left", "right", "left", "right"], "zh_name": "FX-12 护盾生成中继器"},
+    {"id/icon": "st_br_tesla_tower", "en_name": "AARC-3 Tesla Tower", "gesture": ["down", "up", "right", "up", "left", "right"], "zh_name": "A/ARC-3特斯拉电塔"},
+    {"id/icon": "st_br_grenadier_battlement", "en_name": "Grenadier Battlement", "gesture": ["down",  "right","down", "left", "right"], "zh_name": "E/GL-21 掷弹兵掩体"}
+
+  ],
+  "engineering_bay": [
+    {"id/icon": "st_eb_anti_personnel_minefield", "en_name": "Anti-Personnel Minefield", "gesture": ["down", "left", "up", "right"], "zh_name": "MD-6 反步兵雷区"},
+    {"id/icon": "st_eb_anti_tank_mines","en_name":"Anti-Tank Mines","gesture":["down","left","up","up"],"zh_name":"MD-17 反坦克地雷"},
+    {"id/icon": "st_eb_supply_pack", "en_name": "Supply Pack", "gesture": ["down", "left", "down", "up", "up", "down"], "zh_name": "B-1 补给背包"},
+    {"id/icon": "st_eb_grenade_launcher", "en_name": "Grenade Launcher", "gesture": ["down", "left", "up", "left", "down"], "zh_name": "GL-21 榴弹发射器"},
+    {"id/icon": "st_eb_laser_cannon", "en_name": "Laser Cannon", "gesture": ["down", "left", "down", "up", "left"], "zh_name": "LAS-98 激光大炮"},
+    {"id/icon": "st_eb_incendiary_mines", "en_name": "Incendiary Mines", "gesture": ["down", "left", "left", "down"], "zh_name": "MD-14 燃烧地雷"},
+    {"id/icon": "st_eb_guard_dog_rover", "en_name": "“Guard Dog” Rover", "gesture": ["down", "up", "left", "up", "right", "right"], "zh_name": "LX/LAS5 护卫犬"},
+    {"id/icon": "st_eb_ballistic_shield_backpack", "en_name": "Ballistic Shield Backpack", "gesture": ["down", "left", "down", "down", "up", "left"], "zh_name": "SH-20防弹护盾背包"},
+    {"id/icon": "st_eb_arc_thrower", "en_name": "Arc Thrower", "gesture": ["down", "right", "down", "up", "left", "left"], "zh_name": "ARC-3电弧投射器"},
+    {"id/icon": "st_eb_quasar_cannon", "en_name": "Quasar Cannon", "gesture": ["down","down", "up", "left", "right"], "zh_name": "LAS-99 类星体加农炮"},
+    {"id/icon": "st_eb_shield_generator_pack", "en_name": "Shield Generator Pack", "gesture": ["down", "up", "left", "right", "left", "right"], "zh_name": "SH-32护盾发生包"},
+    {"id/icon": "st_eb_gas_mine", "en_name": "Gas Mine", "gesture": ["down", "left","left","right"], "zh_name": "MD-8 毒气地雷"}],
+  "robotics_workshop": [
+    {"id/icon": "st_rw_machine_gun_sentry", "en_name": "Machine Gun Sentry", "gesture": ["down", "up", "right", "right", "up"], "zh_name": "MG-43哨戒机枪"},
+    {"id/icon": "st_rw_gatling_sentry", "en_name": "Gatling Sentry", "gesture": ["down", "up", "right", "left"], "zh_name":"G-16 加特林哨戒机枪"},
+    {"id/icon": "st_rw_mortar_sentry", "en_name": "Mortar Sentry", "gesture": ["down", "up", "right", "right", "down"], "zh_name": "AM-12 迫击哨戒炮"},
+    {"id/icon": "st_rw_guard_dog", "en_name": "“Guard Dog”", "gesture": ["down", "up", "left", "up", "right", "down"], "zh_name": "AR-3 护卫犬"},
+    {"id/icon": "st_rw_autocannon_sentry", "en_name": "Autocannon Sentry", "gesture": ["down", "up", "right", "up", "left", "up"], "zh_name": "AC-8 自动哨戒炮"},
+    {"id/icon": "st_rw_rocket_sentry", "en_name": "Rocket Sentry", "gesture": ["down", "up", "right", "right", "left"], "zh_name": "MLS-4X 火箭哨戒炮"},
+    {"id/icon": "st_rw_ems_mortar_sentry", "en_name": "EMS Mortar Sentry", "gesture": ["down", "up", "right", "down", "right"], "zh_name": "M-23 电磁冲击迫击哨戒炮"},
+    {"id/icon": "st_rw_patriot_exosuit", "en_name": "EXOSUIT Patriot", "gesture": ["left","down", "right","up", "left", "down","down"], "zh_name": "EOX44踏步者"},
+    {"id/icon": "st_rw_emancipator_exosuit", "en_name": "EXOSUIT Emancipator", "gesture": ["left","down", "right","up", "left", "down","up"], "zh_name": "EOX48黑曜石"}
+  ],
+  "others": [
+    {"id/icon": "st_ot_sterilizer", "en_name": "Sterilize", "gesture": ["down", "left","up", "down", "left"], "zh_name":"灭菌器"},
+    {"id/icon": "st_ot_guard_dog_breath", "en_name": "Guard Dog Breath", "gesture": ["down","up", "left","up", "right", "up"], "zh_name":"毒气护卫犬"},
+    {"id/icon": "st_ot_directional_shield", "en_name": "Directional Shield", "gesture": ["down", "up","left","right","up","up"], "zh_name":"定向护盾"},
+    {"id/icon": "st_ot_flame_sentry", "en_name": "Flame Sentry", "gesture": ["down", "up","right", "down", "up","up"], "zh_name":"火焰哨戒炮"},
+    {"id/icon": "st_ot_anti_tank_emplacement", "en_name": "Anti Tank Emplacement", "gesture": ["down","up","left","right","right","right"], "zh_name":"反坦克炮部署"},
+    {"id/icon": "st_ot_hellbomb_portable", "en_name": "HellBomb Portable", "gesture": ["down", "right","up", "up","up"], "zh_name":"便携式地狱火背包"},
+    {"id/icon": "st_ot_hover_pack", "en_name": "Hover Pack", "gesture": ["down", "up","up", "down", "left","right"], "zh_name":"悬浮背包"},
+    {"id/icon": "st_ot_one_true_flag", "en_name": "One True Flag", "gesture": ["down", "left","right", "right", "up"], "zh_name":"唯一真旗"},
+    {"id/icon": "st_ot_gl_52_de_escalator", "en_name": "GL-52 escalator", "gesture": ["left","right", "up","left", "right"], "zh_name":"GL-52“调停者”"},
+    {"id/icon": "st_ot_guard_dog_k_9", "en_name": "Guard Dog k9", "gesture": ["down", "up","left", "up", "right", "left"], "zh_name":"K9 护卫犬"},
+
+    {"id/icon": "st_ot_warp_pack", "en_name": "Warp Pack", "gesture": ["down","left", "right","down","left", "right"], "zh_name":"传送背包"},
+    {"id/icon": "st_ot_laser_sentry", "en_name": "Laser Sentry", "gesture": ["down", "up","right","down", "up","right"], "zh_name":"激光哨戒炮"},
+    {"id/icon": "st_ot_epoch", "en_name": "Epoch","gesture": ["down","left", "up",  "left","right"], "zh_name":"纪元"},
+
+    {"id/icon": "st_ot_expendable_napalm", "en_name": "Expendable Napalm","gesture": ["down","down","left", "up",  "down"], "zh_name":"消耗性凝固汽油弹"},
+    {"id/icon": "st_ot_solo_silo", "en_name": "solo silo","gesture": ["down","up", "right",  "down","down"], "zh_name":"单兵导弹发射井"},
+    {"id/icon": "st_ot_speargun", "en_name": "Spear Gun","gesture": ["down","right","down",   "left","up","right"], "zh_name":"矛枪"},
+
+    {"id/icon": "st_ot_defoliation_tool", "en_name": "Defoliation Tool","gesture": ["down","left","right",   "right","down"], "zh_name":"除叶工具"},
+    {"id/icon": "st_ot_guard_dog_hot_dog", "en_name": "Hot Dog","gesture": ["down","right","down",   "left","up","right"], "zh_name":"热狗"},
+    {"id/icon": "st_ot_maxigun", "en_name": "Maxi Gun","gesture": ["down","left","right","down","up","up"], "zh_name":"重装机枪"},
+
+    {"id/icon": "st_ot_c4_pack", "en_name": "C4","gesture": ["down","right","up","up","right","up"], "zh_name":"C4背包"},
+
+    {"id/icon": "st_ot_gl_28", "en_name": "GL-28","gesture": ["down","left","up","left","up","up"], "zh_name":"弹链式榴弹发射器"},
+    {"id/icon": "st_ot_eat_411", "en_name": "Leveller","gesture": ["down","down","left","up","down"], "zh_name":"荡平者"},
+    {"id/icon": "st_ot_cqc_20", "en_name": "CQC20 Breaching Hammer","gesture": ["down","left","right","left","up"], "zh_name":"破门锤"},
+
+    {"id/icon": "st_ot_cremator", "en_name": "Cremator","gesture": ["down","down","right","down","up","up"], "zh_name":"焚燃者"},
+    {"id/icon": "st_ot_gas_mortar_sentry", "en_name": "Gas Mortar sentry","gesture": ["down","up","right","down","left"], "zh_name":"瓦斯迫击哨戒炮"},
+
+    {"id/icon": "st_ot_supply_frv", "en_name": "M-103 Supply FRV","gesture": ["left","down","left","left","down","up","right"], "zh_name":"M-103补给侦察车"},
+    {"id/icon": "st_ot_incinerator_frv", "en_name": "M-104 Incinerator FRV","gesture": ["left","down","right","left","down","up","up"], "zh_name":"M-104喷火侦察车"},
+
+
+    {"id/icon": "st_ot_breakthrough_exosuit", "en_name": "Breakthrough Exosuit","gesture": ["left","down","right","left","right","down","up"], "zh_name":"突破-外骨骼机甲"},
+    {"id/icon": "st_ot_lumberer_exosuit", "en_name": "Lumberer Exosuit","gesture": ["left","down","right","up","right","left","up"], "zh_name":"伐木工-外骨骼机甲"},
+    {"id/icon": "st_ot_bullet_storm", "en_name": "Bullet Storm","gesture": ["down","left","down","right","up","left"], "zh_name":"子弹风暴"}
+  ]
+}

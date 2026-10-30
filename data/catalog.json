@@ -1,0 +1,1073 @@
+[
+  {
+    "id": "resupply",
+    "name": "Resupply",
+    "nameZh": "重新补给",
+    "category": "MISSION",
+    "code": "DDUR",
+    "icon": "st_ge_resupply",
+    "group": "general_stratagems"
+  },
+  {
+    "id": "reinforce",
+    "name": "Reinforce",
+    "nameZh": "增援",
+    "category": "MISSION",
+    "code": "UDRLU",
+    "icon": "st_ge_reinforce",
+    "group": "general_stratagems"
+  },
+  {
+    "id": "sos_beacon",
+    "name": "SoS Beacon",
+    "nameZh": "S.O.S.求救信标",
+    "category": "MISSION",
+    "code": "UDRU",
+    "icon": "st_ge_sos_beacon",
+    "group": "general_stratagems"
+  },
+  {
+    "id": "ge_hellbomb",
+    "name": "NUX-223 Hellbomb",
+    "nameZh": "地狱火炸弹",
+    "category": "MISSION",
+    "code": "DULDURDU",
+    "icon": "st_ge_hellbomb",
+    "group": "general_stratagems"
+  },
+  {
+    "id": "ge_seaf_artillery",
+    "name": "SEAF Artillery",
+    "nameZh": "超级地球武装部队大炮",
+    "category": "MISSION",
+    "code": "RUUD",
+    "icon": "st_ge_seaf_artillery",
+    "group": "general_stratagems"
+  },
+  {
+    "id": "ge_super_earth_flag",
+    "name": "Super Earth Flag",
+    "nameZh": "超级地球旗帜",
+    "category": "MISSION",
+    "code": "DUDU",
+    "icon": "st_ge_super_earth_flag",
+    "group": "general_stratagems"
+  },
+  {
+    "id": "ge_seismic_probe",
+    "name": "Seismic Probe",
+    "nameZh": "地震探测仪",
+    "category": "MISSION",
+    "code": "UULRDD",
+    "icon": "st_ge_seismic_probe",
+    "group": "general_stratagems"
+  },
+  {
+    "id": "ge_tectonic_drill",
+    "name": "Tectonic Drill",
+    "nameZh": "地壳钻机",
+    "category": "MISSION",
+    "code": "UDUDUD",
+    "icon": "st_ge_tectonic_drill",
+    "group": "general_stratagems"
+  },
+  {
+    "id": "ge_illumination_flare",
+    "name": "Orbital Illumination Flare",
+    "nameZh": "轨道照明弹",
+    "category": "MISSION",
+    "code": "RRLL",
+    "icon": "st_ge_illumination_flare",
+    "group": "general_stratagems"
+  },
+  {
+    "id": "ge_upload_data",
+    "name": "Upload Data",
+    "nameZh": "上传数据",
+    "category": "MISSION",
+    "code": "LRUUU",
+    "icon": "st_ge_upload_data",
+    "group": "general_stratagems"
+  },
+  {
+    "id": "ge_hive_breaker_drill",
+    "name": "Hive Breaker Drill",
+    "nameZh": "“虫窝破裂者”钻机",
+    "category": "MISSION",
+    "code": "LUDRDD",
+    "icon": "st_ge_hive_breaker_drill",
+    "group": "general_stratagems"
+  },
+  {
+    "id": "ge_dark_fluid_vessel",
+    "name": "Dark Fluid Vessel",
+    "nameZh": "暗液体容器",
+    "category": "MISSION",
+    "code": "ULRDUU",
+    "icon": "st_ge_dark_fluid_vessel",
+    "group": "general_stratagems"
+  },
+  {
+    "id": "ge_call_in_super_destroyer",
+    "name": "Call In Super Destroyer",
+    "nameZh": "呼叫超级驱逐舰",
+    "category": "MISSION",
+    "code": "UUDDLRLR",
+    "icon": "st_ge_call_in_super_destroyer",
+    "group": "general_stratagems"
+  },
+  {
+    "id": "ge_cargo_container",
+    "name": "Cargo Container",
+    "nameZh": "货物集装箱",
+    "category": "MISSION",
+    "code": "UUDDRD",
+    "icon": "st_ge_cargo_container",
+    "group": "general_stratagems"
+  },
+  {
+    "id": "eagle_strafing",
+    "name": "Eagle Strafing Run",
+    "nameZh": "“飞鹰”机枪扫射",
+    "category": "OFFENSIVE",
+    "code": "URR",
+    "icon": "st_eg_eagle_strafing_run",
+    "group": "eagle_stratagems"
+  },
+  {
+    "id": "eagle_airstrike",
+    "name": "Eagle Airstrike",
+    "nameZh": "“飞鹰”空袭",
+    "category": "OFFENSIVE",
+    "code": "URDR",
+    "icon": "st_eg_eagle_airstrike",
+    "group": "eagle_stratagems"
+  },
+  {
+    "id": "eagle_cluster",
+    "name": "Eagle Cluster Bomb",
+    "nameZh": "“飞鹰”集束炸弹",
+    "category": "OFFENSIVE",
+    "code": "URDDR",
+    "icon": "st_eg_eagle_cluster_bomb",
+    "group": "eagle_stratagems"
+  },
+  {
+    "id": "eagle_napalm",
+    "name": "Eagle Napalm Airstrike",
+    "nameZh": "“飞鹰”凝固汽油弹空袭",
+    "category": "OFFENSIVE",
+    "code": "URDU",
+    "icon": "st_eg_eagle_napalm_airstrike",
+    "group": "eagle_stratagems"
+  },
+  {
+    "id": "jump_pack",
+    "name": "LIFT-850 Jump Pack",
+    "nameZh": "LIFT-850 喷射背包",
+    "category": "BACKPACK",
+    "code": "DUUDU",
+    "icon": "st_eg_jump_pack",
+    "group": "eagle_stratagems"
+  },
+  {
+    "id": "eagle_smoke",
+    "name": "Eagle Smoke Strike",
+    "nameZh": "“飞鹰”烟雾攻击",
+    "category": "OFFENSIVE",
+    "code": "URUD",
+    "icon": "st_eg_eagle_smoke_strike",
+    "group": "eagle_stratagems"
+  },
+  {
+    "id": "eagle_110",
+    "name": "Eagle 110mm Rocket Pods",
+    "nameZh": "“飞鹰”110MM火箭巢",
+    "category": "OFFENSIVE",
+    "code": "URUL",
+    "icon": "st_eg_eagle_110mm_rocket_pods",
+    "group": "eagle_stratagems"
+  },
+  {
+    "id": "eagle_500",
+    "name": "Eagle 500kg Bomb",
+    "nameZh": "“飞鹰”500KG炸弹",
+    "category": "OFFENSIVE",
+    "code": "URDDD",
+    "icon": "st_eg_eagle_500kg_bomb",
+    "group": "eagle_stratagems"
+  },
+  {
+    "id": "eg_eagle_rearm",
+    "name": "Eagle Rearm",
+    "nameZh": "重新武装“飞鹰”",
+    "category": "MISSION",
+    "code": "UULUR",
+    "icon": "st_eg_eagle_rearm",
+    "group": "eagle_stratagems"
+  },
+  {
+    "id": "eg_fast_recon_vehicle",
+    "name": "M-102 Gunner FRV",
+    "nameZh": "M-102 炮手快速侦察载具",
+    "category": "SUPPORT",
+    "code": "LDRDRDU",
+    "icon": "st_eg_fast_recon_vehicle",
+    "group": "eagle_stratagems"
+  },
+  {
+    "id": "eg_bastion_mk_xvi",
+    "name": "TD-220 Bastion MK XVI",
+    "nameZh": "TD-220 堡垒MK XVI",
+    "category": "DEFENSIVE",
+    "code": "LDRDLDUDU",
+    "icon": "st_eg_bastion_mk_xvi",
+    "group": "eagle_stratagems"
+  },
+  {
+    "id": "machine_gun",
+    "name": "MG-43 Machine Gun",
+    "nameZh": "MG-43 机枪",
+    "category": "SUPPORT",
+    "code": "DLDUR",
+    "icon": "st_pac_machine_gun",
+    "group": "patriotic_administration_center"
+  },
+  {
+    "id": "amr",
+    "name": "APW-1 Anti-Materiel Rifle",
+    "nameZh": "APW-1 反器材步枪",
+    "category": "SUPPORT",
+    "code": "DLRUD",
+    "icon": "st_pac_anti_materiel_rifle",
+    "group": "patriotic_administration_center"
+  },
+  {
+    "id": "stalwart",
+    "name": "M-105 Stalwart",
+    "nameZh": "M-105 盟友",
+    "category": "SUPPORT",
+    "code": "DLDUUL",
+    "icon": "st_pac_stalwart",
+    "group": "patriotic_administration_center"
+  },
+  {
+    "id": "eat",
+    "name": "EAT-17 Expendable Anti-Tank",
+    "nameZh": "EAT-17 消耗性反坦克武器",
+    "category": "SUPPORT",
+    "code": "DDLUR",
+    "icon": "st_pac_expendable_anti_tank",
+    "group": "patriotic_administration_center"
+  },
+  {
+    "id": "recoilless",
+    "name": "GR-8 Recoilless Rifle",
+    "nameZh": "GR-8 无后坐力炮",
+    "category": "SUPPORT",
+    "code": "DLRRL",
+    "icon": "st_pac_recoilless_rifle",
+    "group": "patriotic_administration_center"
+  },
+  {
+    "id": "flamethrower",
+    "name": "FLAM-40 Flamethrower",
+    "nameZh": "FLAM-40 火焰喷射器",
+    "category": "SUPPORT",
+    "code": "DLUDU",
+    "icon": "st_pac_flamethrower",
+    "group": "patriotic_administration_center"
+  },
+  {
+    "id": "autocannon",
+    "name": "AC-8 Autocannon",
+    "nameZh": "AC-8 机炮",
+    "category": "SUPPORT",
+    "code": "DLDUUR",
+    "icon": "st_pac_autocannon",
+    "group": "patriotic_administration_center"
+  },
+  {
+    "id": "hmg",
+    "name": "MG-206 Heavy Machine Gun",
+    "nameZh": "MG-206 重机枪",
+    "category": "SUPPORT",
+    "code": "DLUDD",
+    "icon": "st_pac_heavy_machine_gun",
+    "group": "patriotic_administration_center"
+  },
+  {
+    "id": "airburst_rocket",
+    "name": "RL-77 Airburst Rocket Launcher",
+    "nameZh": "RL-77 空爆火箭弹发射器",
+    "category": "SUPPORT",
+    "code": "DUULR",
+    "icon": "st_pac_airburst_rocket_launcher",
+    "group": "patriotic_administration_center"
+  },
+  {
+    "id": "commando",
+    "name": "MLS-4X Commando",
+    "nameZh": "MLS-4X 突击兵",
+    "category": "SUPPORT",
+    "code": "DLUDR",
+    "icon": "st_pac_commando",
+    "group": "patriotic_administration_center"
+  },
+  {
+    "id": "railgun",
+    "name": "RS-422 Railgun",
+    "nameZh": "RS-422 磁轨炮",
+    "category": "SUPPORT",
+    "code": "DRDULR",
+    "icon": "st_pac_railgun",
+    "group": "patriotic_administration_center"
+  },
+  {
+    "id": "spear",
+    "name": "FAF-14 Spear",
+    "nameZh": "FAF-14 飞矛",
+    "category": "SUPPORT",
+    "code": "DDUDD",
+    "icon": "st_pac_spear",
+    "group": "patriotic_administration_center"
+  },
+  {
+    "id": "pac_sta_x3_wasp_launcher",
+    "name": "StA-X3 W.A.S.P. Launcher",
+    "nameZh": "StA-X3 W.A.S.P.发射器",
+    "category": "SUPPORT",
+    "code": "DDUDR",
+    "icon": "st_pac_sta_x3_wasp_launcher",
+    "group": "patriotic_administration_center"
+  },
+  {
+    "id": "orbital_gatling",
+    "name": "Orbital Gatling Barrage",
+    "nameZh": "轨道加特林火力网",
+    "category": "OFFENSIVE",
+    "code": "RDLUU",
+    "icon": "st_oc_gatling_barrage",
+    "group": "orbital_cannons"
+  },
+  {
+    "id": "orbital_airburst",
+    "name": "Orbital Airburst Strike",
+    "nameZh": "轨道空爆攻击",
+    "category": "OFFENSIVE",
+    "code": "RRR",
+    "icon": "st_oc_airburst_strike",
+    "group": "orbital_cannons"
+  },
+  {
+    "id": "orbital_120",
+    "name": "Orbital 120mm HE Barrage",
+    "nameZh": "轨道120MM高爆弹火力网",
+    "category": "OFFENSIVE",
+    "code": "RRDLRD",
+    "icon": "st_oc_120mm_he_barrage",
+    "group": "orbital_cannons"
+  },
+  {
+    "id": "orbital_380",
+    "name": "Orbital 380mm HE Barrage",
+    "nameZh": "轨道380MM高爆弹火力网",
+    "category": "OFFENSIVE",
+    "code": "RDUULDD",
+    "icon": "st_oc_380mm_he_barrage",
+    "group": "orbital_cannons"
+  },
+  {
+    "id": "orbital_walking",
+    "name": "Orbital Walking Barrage",
+    "nameZh": "轨道游走火力网",
+    "category": "OFFENSIVE",
+    "code": "RDRDRD",
+    "icon": "st_oc_walking_barrage",
+    "group": "orbital_cannons"
+  },
+  {
+    "id": "orbital_laser",
+    "name": "Orbital Laser",
+    "nameZh": "轨道激光炮",
+    "category": "OFFENSIVE",
+    "code": "RDURD",
+    "icon": "st_oc_laser",
+    "group": "orbital_cannons"
+  },
+  {
+    "id": "orbital_railcannon",
+    "name": "Orbital Railcannon Strike",
+    "nameZh": "轨道炮攻击",
+    "category": "OFFENSIVE",
+    "code": "RUDDR",
+    "icon": "st_oc_railcannon_strike",
+    "group": "orbital_cannons"
+  },
+  {
+    "id": "orbital_napalm",
+    "name": "Orbital Napalm Barrage",
+    "nameZh": "轨道凝固汽油弹火力网",
+    "category": "OFFENSIVE",
+    "code": "RRDLRU",
+    "icon": "st_oc_orbital_napalm_barrage",
+    "group": "orbital_cannons"
+  },
+  {
+    "id": "br_orbital_precision_strike",
+    "name": "Orbital Precision Strike",
+    "nameZh": "轨道精准攻击",
+    "category": "OFFENSIVE",
+    "code": "RRU",
+    "icon": "st_br_orbital_precision_strike",
+    "group": "bridge"
+  },
+  {
+    "id": "br_orbital_gas_strike",
+    "name": "Orbital Gas Strike",
+    "nameZh": "轨道毒气攻击",
+    "category": "OFFENSIVE",
+    "code": "RRDR",
+    "icon": "st_br_orbital_gas_strike",
+    "group": "bridge"
+  },
+  {
+    "id": "br_orbital_ems_strike",
+    "name": "Orbital EMS Strike",
+    "nameZh": "轨道电磁冲击波攻击",
+    "category": "OFFENSIVE",
+    "code": "RRLD",
+    "icon": "st_br_orbital_ems_strike",
+    "group": "bridge"
+  },
+  {
+    "id": "br_orbital_smoke_strike",
+    "name": "Orbital Smoke Strike",
+    "nameZh": "轨道烟雾攻击",
+    "category": "OFFENSIVE",
+    "code": "RRDU",
+    "icon": "st_br_orbital_smoke_strike",
+    "group": "bridge"
+  },
+  {
+    "id": "hmg_emplacement",
+    "name": "E/MG-101 HMG Emplacement",
+    "nameZh": "E/MG-101 重机枪部署支架",
+    "category": "DEFENSIVE",
+    "code": "DULRRL",
+    "icon": "st_br_hmg_emplacement",
+    "group": "bridge"
+  },
+  {
+    "id": "shield_relay",
+    "name": "FX-12 Shield Generator Relay",
+    "nameZh": "FX-12 防护罩生成中继器",
+    "category": "DEFENSIVE",
+    "code": "DDLRLR",
+    "icon": "st_br_shield_generator_relay",
+    "group": "bridge"
+  },
+  {
+    "id": "tesla_tower",
+    "name": "A/ARC-3 Tesla Tower",
+    "nameZh": "A/ARC-3 特斯拉塔",
+    "category": "DEFENSIVE",
+    "code": "DURULR",
+    "icon": "st_br_tesla_tower",
+    "group": "bridge"
+  },
+  {
+    "id": "br_grenadier_battlement",
+    "name": "E/GL-21 Grenadier Battlement",
+    "nameZh": "E/GL-21 掷弹兵防卫墙",
+    "category": "DEFENSIVE",
+    "code": "DRDLR",
+    "icon": "st_br_grenadier_battlement",
+    "group": "bridge"
+  },
+  {
+    "id": "eb_anti_personnel_minefield",
+    "name": "MD-6 Anti-Personnel Minefield",
+    "nameZh": "MD-6 反步兵雷区",
+    "category": "DEFENSIVE",
+    "code": "DLUR",
+    "icon": "st_eb_anti_personnel_minefield",
+    "group": "engineering_bay"
+  },
+  {
+    "id": "eb_anti_tank_mines",
+    "name": "MD-17 Anti-Tank Mines",
+    "nameZh": "MD-17 反坦克地雷",
+    "category": "DEFENSIVE",
+    "code": "DLUU",
+    "icon": "st_eb_anti_tank_mines",
+    "group": "engineering_bay"
+  },
+  {
+    "id": "supply_pack",
+    "name": "B-1 Supply Pack",
+    "nameZh": "B-1 补给背包",
+    "category": "BACKPACK",
+    "code": "DLDUUD",
+    "icon": "st_eb_supply_pack",
+    "group": "engineering_bay"
+  },
+  {
+    "id": "eb_grenade_launcher",
+    "name": "GL-21 Grenade Launcher",
+    "nameZh": "GL-21 榴弹发射器",
+    "category": "SUPPORT",
+    "code": "DLULD",
+    "icon": "st_eb_grenade_launcher",
+    "group": "engineering_bay"
+  },
+  {
+    "id": "eb_laser_cannon",
+    "name": "LAS-98 Laser Cannon",
+    "nameZh": "LAS-98 激光大炮",
+    "category": "SUPPORT",
+    "code": "DLDUL",
+    "icon": "st_eb_laser_cannon",
+    "group": "engineering_bay"
+  },
+  {
+    "id": "eb_incendiary_mines",
+    "name": "MD-I4 Incendiary Mines",
+    "nameZh": "MD-I4 燃烧地雷",
+    "category": "DEFENSIVE",
+    "code": "DLLD",
+    "icon": "st_eb_incendiary_mines",
+    "group": "engineering_bay"
+  },
+  {
+    "id": "guard_dog_rover",
+    "name": "AX/LAS-5 Rover",
+    "nameZh": "AX/LAS-5 漫游车",
+    "category": "BACKPACK",
+    "code": "DULURR",
+    "icon": "st_eb_guard_dog_rover",
+    "group": "engineering_bay"
+  },
+  {
+    "id": "ballistic_shield",
+    "name": "SH-20 Ballistic Shield Backpack",
+    "nameZh": "SH-20 防弹护盾背包",
+    "category": "BACKPACK",
+    "code": "DLDDUL",
+    "icon": "st_eb_ballistic_shield_backpack",
+    "group": "engineering_bay"
+  },
+  {
+    "id": "eb_arc_thrower",
+    "name": "ARC-3 Arc Thrower",
+    "nameZh": "ARC-3 电弧发射器",
+    "category": "SUPPORT",
+    "code": "DRDULL",
+    "icon": "st_eb_arc_thrower",
+    "group": "engineering_bay"
+  },
+  {
+    "id": "eb_quasar_cannon",
+    "name": "LAS-99 Quasar Cannon",
+    "nameZh": "LAS-99 类星体加农炮",
+    "category": "SUPPORT",
+    "code": "DDULR",
+    "icon": "st_eb_quasar_cannon",
+    "group": "engineering_bay"
+  },
+  {
+    "id": "shield_pack",
+    "name": "SH-32 Shield Generator Pack",
+    "nameZh": "SH-32 防护罩生成包",
+    "category": "BACKPACK",
+    "code": "DULRLR",
+    "icon": "st_eb_shield_generator_pack",
+    "group": "engineering_bay"
+  },
+  {
+    "id": "eb_gas_mine",
+    "name": "MD-8 Gas Mines",
+    "nameZh": "MD-8 毒气地雷",
+    "category": "DEFENSIVE",
+    "code": "DLLR",
+    "icon": "st_eb_gas_mine",
+    "group": "engineering_bay"
+  },
+  {
+    "id": "mg_sentry",
+    "name": "A/MG-43 Machine Gun Sentry",
+    "nameZh": "A/MG-43 哨戒机枪",
+    "category": "SENTRY",
+    "code": "DURRU",
+    "icon": "st_rw_machine_gun_sentry",
+    "group": "robotics_workshop"
+  },
+  {
+    "id": "gatling_sentry",
+    "name": "A/G-16 Gatling Sentry",
+    "nameZh": "A/G-16 加特林哨戒炮",
+    "category": "SENTRY",
+    "code": "DURL",
+    "icon": "st_rw_gatling_sentry",
+    "group": "robotics_workshop"
+  },
+  {
+    "id": "mortar_sentry",
+    "name": "A/M-12 Mortar Sentry",
+    "nameZh": "A/M-12 迫击哨戒炮",
+    "category": "SENTRY",
+    "code": "DURRD",
+    "icon": "st_rw_mortar_sentry",
+    "group": "robotics_workshop"
+  },
+  {
+    "id": "guard_dog",
+    "name": "AX/AR-23 Guard Dog",
+    "nameZh": "AX/AR-23 “护卫犬”",
+    "category": "BACKPACK",
+    "code": "DULURD",
+    "icon": "st_rw_guard_dog",
+    "group": "robotics_workshop"
+  },
+  {
+    "id": "ac_sentry",
+    "name": "A/AC-8 Autocannon Sentry",
+    "nameZh": "A/AC-8 自动哨戒炮",
+    "category": "SENTRY",
+    "code": "DURULU",
+    "icon": "st_rw_autocannon_sentry",
+    "group": "robotics_workshop"
+  },
+  {
+    "id": "rocket_sentry",
+    "name": "A/MLS-4X Rocket Sentry",
+    "nameZh": "A/MLS-4X 火箭哨戒炮",
+    "category": "SENTRY",
+    "code": "DURRL",
+    "icon": "st_rw_rocket_sentry",
+    "group": "robotics_workshop"
+  },
+  {
+    "id": "ems_mortar",
+    "name": "A/M-23 EMS Mortar Sentry",
+    "nameZh": "A/M-23 电磁冲击波迫击哨戒炮",
+    "category": "SENTRY",
+    "code": "DURDR",
+    "icon": "st_rw_ems_mortar_sentry",
+    "group": "robotics_workshop"
+  },
+  {
+    "id": "rw_patriot_exosuit",
+    "name": "EXO-45 Patriot Exosuit",
+    "nameZh": "EXO-45 “爱国者”外骨骼装甲",
+    "category": "DEFENSIVE",
+    "code": "LDRULDD",
+    "icon": "st_rw_patriot_exosuit",
+    "group": "robotics_workshop"
+  },
+  {
+    "id": "rw_emancipator_exosuit",
+    "name": "EXO-49 Emancipator Exosuit",
+    "nameZh": "EXO-49 “解放者”外骨骼装甲",
+    "category": "DEFENSIVE",
+    "code": "LDRULDU",
+    "icon": "st_rw_emancipator_exosuit",
+    "group": "robotics_workshop"
+  },
+  {
+    "id": "ot_sterilizer",
+    "name": "TX-41 Sterilizer",
+    "nameZh": "TX-41 灭菌器",
+    "category": "SUPPORT",
+    "code": "DLUDL",
+    "icon": "st_ot_sterilizer",
+    "group": "others"
+  },
+  {
+    "id": "ot_guard_dog_breath",
+    "name": "AX/TX-13 Dog Breath",
+    "nameZh": "AX/TX-13 腐息",
+    "category": "BACKPACK",
+    "code": "DULURU",
+    "icon": "st_ot_guard_dog_breath",
+    "group": "others"
+  },
+  {
+    "id": "ot_directional_shield",
+    "name": "SH-51 Directional Shield",
+    "nameZh": "SH-51 定向护盾",
+    "category": "BACKPACK",
+    "code": "DULRUU",
+    "icon": "st_ot_directional_shield",
+    "group": "others"
+  },
+  {
+    "id": "ot_flame_sentry",
+    "name": "A/FLAM-40 Flame Sentry",
+    "nameZh": "A/FLAM-40 火焰喷射哨戒炮",
+    "category": "SENTRY",
+    "code": "DURDUU",
+    "icon": "st_ot_flame_sentry",
+    "group": "others"
+  },
+  {
+    "id": "ot_anti_tank_emplacement",
+    "name": "E/AT-12 Anti-Tank Emplacement",
+    "nameZh": "E/AT-12 反坦克炮台",
+    "category": "DEFENSIVE",
+    "code": "DULRRR",
+    "icon": "st_ot_anti_tank_emplacement",
+    "group": "others"
+  },
+  {
+    "id": "ot_hellbomb_portable",
+    "name": "B-100 Portable Hellbomb",
+    "nameZh": "B-100 便携式地狱火炸弹",
+    "category": "BACKPACK",
+    "code": "DRUUU",
+    "icon": "st_ot_hellbomb_portable",
+    "group": "others"
+  },
+  {
+    "id": "ot_hover_pack",
+    "name": "LIFT-860 Hover Pack",
+    "nameZh": "LIFT-860 悬浮背包",
+    "category": "BACKPACK",
+    "code": "DUUDLR",
+    "icon": "st_ot_hover_pack",
+    "group": "others"
+  },
+  {
+    "id": "ot_one_true_flag",
+    "name": "CQC-1 One True Flag",
+    "nameZh": "CQC-1 唯一真旗",
+    "category": "MISSION",
+    "code": "DLRRU",
+    "icon": "st_ot_one_true_flag",
+    "group": "others"
+  },
+  {
+    "id": "ot_gl_52_de_escalator",
+    "name": "GL-52 De-Escalator",
+    "nameZh": "GL-52 缓和使者",
+    "category": "SUPPORT",
+    "code": "DRULR",
+    "icon": "st_ot_gl_52_de_escalator",
+    "group": "others"
+  },
+  {
+    "id": "ot_guard_dog_k_9",
+    "name": "AX/ARC-3 K-9",
+    "nameZh": "AX/ARC-3 K-9",
+    "category": "BACKPACK",
+    "code": "DULURL",
+    "icon": "st_ot_guard_dog_k_9",
+    "group": "others"
+  },
+  {
+    "id": "ot_warp_pack",
+    "name": "LIFT-182 Warp Pack",
+    "nameZh": "LIFT-182 传送背包",
+    "category": "BACKPACK",
+    "code": "DLRDLR",
+    "icon": "st_ot_warp_pack",
+    "group": "others"
+  },
+  {
+    "id": "ot_laser_sentry",
+    "name": "A/LAS-98 Laser Sentry",
+    "nameZh": "A/LAS-98 激光哨戒炮",
+    "category": "SENTRY",
+    "code": "DURDUR",
+    "icon": "st_ot_laser_sentry",
+    "group": "others"
+  },
+  {
+    "id": "ot_epoch",
+    "name": "PLAS-45 Epoch",
+    "nameZh": "PLAS-45 纪元",
+    "category": "SUPPORT",
+    "code": "DLULR",
+    "icon": "st_ot_epoch",
+    "group": "others"
+  },
+  {
+    "id": "ot_expendable_napalm",
+    "name": "EAT-700 Expendable Napalm",
+    "nameZh": "EAT-700 消耗性凝固汽油弹",
+    "category": "SUPPORT",
+    "code": "DDLUL",
+    "icon": "st_ot_expendable_napalm",
+    "group": "others"
+  },
+  {
+    "id": "ot_solo_silo",
+    "name": "MS-11 Solo Silo",
+    "nameZh": "MS-11 单兵导弹发射井",
+    "category": "SUPPORT",
+    "code": "DURDD",
+    "icon": "st_ot_solo_silo",
+    "group": "others"
+  },
+  {
+    "id": "ot_speargun",
+    "name": "S-11 Speargun",
+    "nameZh": "S-11 矛枪",
+    "category": "SUPPORT",
+    "code": "DRDLUR",
+    "icon": "st_ot_speargun",
+    "group": "others"
+  },
+  {
+    "id": "ot_defoliation_tool",
+    "name": "CQC-9 Defoliation Tool",
+    "nameZh": "CQC-9 除叶工具",
+    "category": "SUPPORT",
+    "code": "DLRRD",
+    "icon": "st_ot_defoliation_tool",
+    "group": "others"
+  },
+  {
+    "id": "ot_guard_dog_hot_dog",
+    "name": "AX/FLAM-75 Hot Dog",
+    "nameZh": "AX/FLAM-75 热狗",
+    "category": "BACKPACK",
+    "code": "DULULL",
+    "icon": "st_ot_guard_dog_hot_dog",
+    "group": "others"
+  },
+  {
+    "id": "ot_maxigun",
+    "name": "M-1000 Maxigun",
+    "nameZh": "M-1000 重装机枪",
+    "category": "SUPPORT",
+    "code": "DLRDUU",
+    "icon": "st_ot_maxigun",
+    "group": "others"
+  },
+  {
+    "id": "ot_c4_pack",
+    "name": "B/MD C4 Pack",
+    "nameZh": "B/MD C4背包",
+    "category": "BACKPACK",
+    "code": "DRUURU",
+    "icon": "st_ot_c4_pack",
+    "group": "others"
+  },
+  {
+    "id": "ot_gl_28",
+    "name": "GL-28 Belt-Fed Grenade Launcher",
+    "nameZh": "GL-28 弹链式榴弹发射器",
+    "category": "SUPPORT",
+    "code": "DLULUU",
+    "icon": "st_ot_gl_28",
+    "group": "others"
+  },
+  {
+    "id": "ot_eat_411",
+    "name": "EAT-411 Leveller",
+    "nameZh": "EAT-411 荡平者",
+    "category": "SUPPORT",
+    "code": "DDLUD",
+    "icon": "st_ot_eat_411",
+    "group": "others"
+  },
+  {
+    "id": "ot_cqc_20",
+    "name": "CQC-20 Breaching Hammer",
+    "nameZh": "CQC-20 破门锤",
+    "category": "SUPPORT",
+    "code": "DLRLU",
+    "icon": "st_ot_cqc_20",
+    "group": "others"
+  },
+  {
+    "id": "ot_cremator",
+    "name": "B/FLAM-80 Cremator",
+    "nameZh": "B/FLAM-80 焚燃者",
+    "category": "SUPPORT",
+    "code": "DDRDUU",
+    "icon": "st_ot_cremator",
+    "group": "others"
+  },
+  {
+    "id": "ot_gas_mortar_sentry",
+    "name": "A/GM-17 Gas Mortar Sentry",
+    "nameZh": "A/GM-17 瓦斯迫击哨戒炮",
+    "category": "SENTRY",
+    "code": "DURDL",
+    "icon": "st_ot_gas_mortar_sentry",
+    "group": "others"
+  },
+  {
+    "id": "ot_supply_frv",
+    "name": "M-103 Supply FRV",
+    "nameZh": "M-103 补给型快速侦察载具",
+    "category": "SUPPORT",
+    "code": "LDLLDUR",
+    "icon": "st_ot_supply_frv",
+    "group": "others"
+  },
+  {
+    "id": "ot_incinerator_frv",
+    "name": "M-104 Incinerator FRV",
+    "nameZh": "M-104 炽灼型快速侦察载具",
+    "category": "SUPPORT",
+    "code": "LDRLDUU",
+    "icon": "st_ot_incinerator_frv",
+    "group": "others"
+  },
+  {
+    "id": "ot_breakthrough_exosuit",
+    "name": "EXO-55 Breakthrough Exosuit",
+    "nameZh": "EXO-55 “突破”外骨骼装甲",
+    "category": "DEFENSIVE",
+    "code": "LDRLRDU",
+    "icon": "st_ot_breakthrough_exosuit",
+    "group": "others"
+  },
+  {
+    "id": "ot_lumberer_exosuit",
+    "name": "EXO-51 Lumberer Exosuit",
+    "nameZh": "EXO-51 “伐木者”外骨骼装甲",
+    "category": "DEFENSIVE",
+    "code": "LDRURLU",
+    "icon": "st_ot_lumberer_exosuit",
+    "group": "others"
+  },
+  {
+    "id": "ot_bullet_storm",
+    "name": "MGX-42 Bullet Storm",
+    "nameZh": "MGX-42 子弹风暴",
+    "category": "SUPPORT",
+    "code": "DLDRUL",
+    "icon": "st_ot_bullet_storm",
+    "group": "others"
+  },
+  {
+    "id": "eagle_fly_by",
+    "name": "Eagle Fly By",
+    "nameZh": "“飞鹰”掠过",
+    "category": "OFFENSIVE",
+    "code": "UDDUUDDUU",
+    "icon": "st_eg_eagle_strafing_run",
+    "group": "wiki_extra"
+  },
+  {
+    "id": "eagle_gas_airstrike",
+    "name": "Eagle Gas Airstrike",
+    "nameZh": "“飞鹰”毒气空袭",
+    "category": "OFFENSIVE",
+    "code": "URLR",
+    "icon": "st_br_orbital_gas_strike",
+    "group": "wiki_extra"
+  },
+  {
+    "id": "pac_meltagun",
+    "name": "40-K Meltagun",
+    "nameZh": "40-K 热熔枪",
+    "category": "SUPPORT",
+    "code": "DLULLD",
+    "icon": "st_pac_flamethrower",
+    "group": "wiki_extra"
+  },
+  {
+    "id": "pac_apex",
+    "name": "AMW-20 Apex",
+    "nameZh": "AMW-20 尖峰",
+    "category": "SUPPORT",
+    "code": "DLLUDL",
+    "icon": "st_pac_anti_materiel_rifle",
+    "group": "wiki_extra"
+  },
+  {
+    "id": "pac_nova",
+    "name": "LAS-44 Nova",
+    "nameZh": "LAS-44 新星",
+    "category": "SUPPORT",
+    "code": "DLRDD",
+    "icon": "st_eb_laser_cannon",
+    "group": "wiki_extra"
+  },
+  {
+    "id": "eg_maelstrom",
+    "name": "TD-110 Maelstrom",
+    "nameZh": "TD-110 风暴漩涡",
+    "category": "SUPPORT",
+    "code": "LDRDLDULR",
+    "icon": "st_eg_fast_recon_vehicle",
+    "group": "wiki_extra"
+  },
+  {
+    "id": "ge_portable_comms_relay",
+    "name": "Portable Comms Relay",
+    "nameZh": "便携式通信中继站",
+    "category": "MISSION",
+    "code": "UUDDLLD",
+    "icon": "st_ge_cargo_container",
+    "group": "wiki_extra"
+  },
+  {
+    "id": "ge_prospecting_drill",
+    "name": "Prospecting Drill",
+    "nameZh": "勘探钻机",
+    "category": "MISSION",
+    "code": "DDLRDD",
+    "icon": "st_ge_tectonic_drill",
+    "group": "wiki_extra"
+  },
+  {
+    "id": "ge_seize_industrial_complex",
+    "name": "Seize Industrial Complex",
+    "nameZh": "占领工业联合体",
+    "category": "MISSION",
+    "code": "DDDDDUU",
+    "icon": "st_ge_upload_data",
+    "group": "wiki_extra"
+  },
+  {
+    "id": "ge_sssd_delivery",
+    "name": "SSSD Delivery",
+    "nameZh": "运送超级固态硬盘",
+    "category": "MISSION",
+    "code": "DDDDDUU",
+    "icon": "st_ge_upload_data",
+    "group": "wiki_extra"
+  },
+  {
+    "id": "ge_aquifer_drill",
+    "name": "Aquifer Drill",
+    "nameZh": "含水层钻机",
+    "category": "MISSION",
+    "code": "LLLUDRDD",
+    "icon": "st_ge_tectonic_drill",
+    "group": "wiki_extra"
+  },
+  {
+    "id": "ge_e711_extraction_drill",
+    "name": "Activate E-711 Extraction Drill",
+    "nameZh": "启动E-711提取钻机",
+    "category": "MISSION",
+    "code": "DDLLDD",
+    "icon": "st_ge_tectonic_drill",
+    "group": "wiki_extra"
+  },
+  {
+    "id": "ge_tactical_video_camera",
+    "name": "Tactical Video Camera",
+    "nameZh": "战术摄像机",
+    "category": "MISSION",
+    "code": "RDDULLU",
+    "icon": "st_ge_seismic_probe",
+    "group": "wiki_extra"
+  },
+  {
+    "id": "oc_orbital_confetti",
+    "name": "Orbital Confetti",
+    "nameZh": "轨道彩纸秀",
+    "category": "OFFENSIVE",
+    "code": "RDDUUDDUU",
+    "icon": "st_oc_orbital_napalm_barrage",
+    "group": "wiki_extra"
+  }
+]

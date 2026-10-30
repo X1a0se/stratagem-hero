@@ -1,0 +1,148 @@
+package com.stratagemhero.mobile;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+/** Generated from HDWearStrategy catalog.json + HD2-Stratagem-Hero-Mobile stratagems.json;
+ * names and call-in codes aligned to the Helldivers Wiki. */
+public final class StratagemCatalog {
+    public static final String MISSION = "MISSION";
+    public static final String SUPPORT = "SUPPORT";
+    public static final String OFFENSIVE = "OFFENSIVE";
+    public static final String BACKPACK = "BACKPACK";
+    public static final String SENTRY = "SENTRY";
+    public static final String DEFENSIVE = "DEFENSIVE";
+
+    public static final List<Stratagem> ALL;
+    static {
+        List<Stratagem> all = new ArrayList<>();
+        all.add(new Stratagem("resupply", "Resupply", "重新补给", "MISSION", "DDUR", "st_ge_resupply"));
+        all.add(new Stratagem("reinforce", "Reinforce", "增援", "MISSION", "UDRLU", "st_ge_reinforce"));
+        all.add(new Stratagem("sos_beacon", "SoS Beacon", "S.O.S.求救信标", "MISSION", "UDRU", "st_ge_sos_beacon"));
+        all.add(new Stratagem("ge_hellbomb", "NUX-223 Hellbomb", "地狱火炸弹", "MISSION", "DULDURDU", "st_ge_hellbomb"));
+        all.add(new Stratagem("ge_seaf_artillery", "SEAF Artillery", "超级地球武装部队大炮", "MISSION", "RUUD", "st_ge_seaf_artillery"));
+        all.add(new Stratagem("ge_super_earth_flag", "Super Earth Flag", "超级地球旗帜", "MISSION", "DUDU", "st_ge_super_earth_flag"));
+        all.add(new Stratagem("ge_seismic_probe", "Seismic Probe", "地震探测仪", "MISSION", "UULRDD", "st_ge_seismic_probe"));
+        all.add(new Stratagem("ge_tectonic_drill", "Tectonic Drill", "地壳钻机", "MISSION", "UDUDUD", "st_ge_tectonic_drill"));
+        all.add(new Stratagem("ge_illumination_flare", "Orbital Illumination Flare", "轨道照明弹", "MISSION", "RRLL", "st_ge_illumination_flare"));
+        all.add(new Stratagem("ge_upload_data", "Upload Data", "上传数据", "MISSION", "LRUUU", "st_ge_upload_data"));
+        all.add(new Stratagem("ge_hive_breaker_drill", "Hive Breaker Drill", "“虫窝破裂者”钻机", "MISSION", "LUDRDD", "st_ge_hive_breaker_drill"));
+        all.add(new Stratagem("ge_dark_fluid_vessel", "Dark Fluid Vessel", "暗液体容器", "MISSION", "ULRDUU", "st_ge_dark_fluid_vessel"));
+        all.add(new Stratagem("ge_call_in_super_destroyer", "Call In Super Destroyer", "呼叫超级驱逐舰", "MISSION", "UUDDLRLR", "st_ge_call_in_super_destroyer"));
+        all.add(new Stratagem("ge_cargo_container", "Cargo Container", "货物集装箱", "MISSION", "UUDDRD", "st_ge_cargo_container"));
+        all.add(new Stratagem("eagle_strafing", "Eagle Strafing Run", "“飞鹰”机枪扫射", "OFFENSIVE", "URR", "st_eg_eagle_strafing_run"));
+        all.add(new Stratagem("eagle_airstrike", "Eagle Airstrike", "“飞鹰”空袭", "OFFENSIVE", "URDR", "st_eg_eagle_airstrike"));
+        all.add(new Stratagem("eagle_cluster", "Eagle Cluster Bomb", "“飞鹰”集束炸弹", "OFFENSIVE", "URDDR", "st_eg_eagle_cluster_bomb"));
+        all.add(new Stratagem("eagle_napalm", "Eagle Napalm Airstrike", "“飞鹰”凝固汽油弹空袭", "OFFENSIVE", "URDU", "st_eg_eagle_napalm_airstrike"));
+        all.add(new Stratagem("jump_pack", "LIFT-850 Jump Pack", "LIFT-850 喷射背包", "BACKPACK", "DUUDU", "st_eg_jump_pack"));
+        all.add(new Stratagem("eagle_smoke", "Eagle Smoke Strike", "“飞鹰”烟雾攻击", "OFFENSIVE", "URUD", "st_eg_eagle_smoke_strike"));
+        all.add(new Stratagem("eagle_110", "Eagle 110mm Rocket Pods", "“飞鹰”110MM火箭巢", "OFFENSIVE", "URUL", "st_eg_eagle_110mm_rocket_pods"));
+        all.add(new Stratagem("eagle_500", "Eagle 500kg Bomb", "“飞鹰”500KG炸弹", "OFFENSIVE", "URDDD", "st_eg_eagle_500kg_bomb"));
+        all.add(new Stratagem("eg_eagle_rearm", "Eagle Rearm", "重新武装“飞鹰”", "MISSION", "UULUR", "st_eg_eagle_rearm"));
+        all.add(new Stratagem("eg_fast_recon_vehicle", "M-102 Gunner FRV", "M-102 炮手快速侦察载具", "SUPPORT", "LDRDRDU", "st_eg_fast_recon_vehicle"));
+        all.add(new Stratagem("eg_bastion_mk_xvi", "TD-220 Bastion MK XVI", "TD-220 堡垒MK XVI", "DEFENSIVE", "LDRDLDUDU", "st_eg_bastion_mk_xvi"));
+        all.add(new Stratagem("machine_gun", "MG-43 Machine Gun", "MG-43 机枪", "SUPPORT", "DLDUR", "st_pac_machine_gun"));
+        all.add(new Stratagem("amr", "APW-1 Anti-Materiel Rifle", "APW-1 反器材步枪", "SUPPORT", "DLRUD", "st_pac_anti_materiel_rifle"));
+        all.add(new Stratagem("stalwart", "M-105 Stalwart", "M-105 盟友", "SUPPORT", "DLDUUL", "st_pac_stalwart"));
+        all.add(new Stratagem("eat", "EAT-17 Expendable Anti-Tank", "EAT-17 消耗性反坦克武器", "SUPPORT", "DDLUR", "st_pac_expendable_anti_tank"));
+        all.add(new Stratagem("recoilless", "GR-8 Recoilless Rifle", "GR-8 无后坐力炮", "SUPPORT", "DLRRL", "st_pac_recoilless_rifle"));
+        all.add(new Stratagem("flamethrower", "FLAM-40 Flamethrower", "FLAM-40 火焰喷射器", "SUPPORT", "DLUDU", "st_pac_flamethrower"));
+        all.add(new Stratagem("autocannon", "AC-8 Autocannon", "AC-8 机炮", "SUPPORT", "DLDUUR", "st_pac_autocannon"));
+        all.add(new Stratagem("hmg", "MG-206 Heavy Machine Gun", "MG-206 重机枪", "SUPPORT", "DLUDD", "st_pac_heavy_machine_gun"));
+        all.add(new Stratagem("airburst_rocket", "RL-77 Airburst Rocket Launcher", "RL-77 空爆火箭弹发射器", "SUPPORT", "DUULR", "st_pac_airburst_rocket_launcher"));
+        all.add(new Stratagem("commando", "MLS-4X Commando", "MLS-4X 突击兵", "SUPPORT", "DLUDR", "st_pac_commando"));
+        all.add(new Stratagem("railgun", "RS-422 Railgun", "RS-422 磁轨炮", "SUPPORT", "DRDULR", "st_pac_railgun"));
+        all.add(new Stratagem("spear", "FAF-14 Spear", "FAF-14 飞矛", "SUPPORT", "DDUDD", "st_pac_spear"));
+        all.add(new Stratagem("pac_sta_x3_wasp_launcher", "StA-X3 W.A.S.P. Launcher", "StA-X3 W.A.S.P.发射器", "SUPPORT", "DDUDR", "st_pac_sta_x3_wasp_launcher"));
+        all.add(new Stratagem("orbital_gatling", "Orbital Gatling Barrage", "轨道加特林火力网", "OFFENSIVE", "RDLUU", "st_oc_gatling_barrage"));
+        all.add(new Stratagem("orbital_airburst", "Orbital Airburst Strike", "轨道空爆攻击", "OFFENSIVE", "RRR", "st_oc_airburst_strike"));
+        all.add(new Stratagem("orbital_120", "Orbital 120mm HE Barrage", "轨道120MM高爆弹火力网", "OFFENSIVE", "RRDLRD", "st_oc_120mm_he_barrage"));
+        all.add(new Stratagem("orbital_380", "Orbital 380mm HE Barrage", "轨道380MM高爆弹火力网", "OFFENSIVE", "RDUULDD", "st_oc_380mm_he_barrage"));
+        all.add(new Stratagem("orbital_walking", "Orbital Walking Barrage", "轨道游走火力网", "OFFENSIVE", "RDRDRD", "st_oc_walking_barrage"));
+        all.add(new Stratagem("orbital_laser", "Orbital Laser", "轨道激光炮", "OFFENSIVE", "RDURD", "st_oc_laser"));
+        all.add(new Stratagem("orbital_railcannon", "Orbital Railcannon Strike", "轨道炮攻击", "OFFENSIVE", "RUDDR", "st_oc_railcannon_strike"));
+        all.add(new Stratagem("orbital_napalm", "Orbital Napalm Barrage", "轨道凝固汽油弹火力网", "OFFENSIVE", "RRDLRU", "st_oc_orbital_napalm_barrage"));
+        all.add(new Stratagem("br_orbital_precision_strike", "Orbital Precision Strike", "轨道精准攻击", "OFFENSIVE", "RRU", "st_br_orbital_precision_strike"));
+        all.add(new Stratagem("br_orbital_gas_strike", "Orbital Gas Strike", "轨道毒气攻击", "OFFENSIVE", "RRDR", "st_br_orbital_gas_strike"));
+        all.add(new Stratagem("br_orbital_ems_strike", "Orbital EMS Strike", "轨道电磁冲击波攻击", "OFFENSIVE", "RRLD", "st_br_orbital_ems_strike"));
+        all.add(new Stratagem("br_orbital_smoke_strike", "Orbital Smoke Strike", "轨道烟雾攻击", "OFFENSIVE", "RRDU", "st_br_orbital_smoke_strike"));
+        all.add(new Stratagem("hmg_emplacement", "E/MG-101 HMG Emplacement", "E/MG-101 重机枪部署支架", "DEFENSIVE", "DULRRL", "st_br_hmg_emplacement"));
+        all.add(new Stratagem("shield_relay", "FX-12 Shield Generator Relay", "FX-12 防护罩生成中继器", "DEFENSIVE", "DDLRLR", "st_br_shield_generator_relay"));
+        all.add(new Stratagem("tesla_tower", "A/ARC-3 Tesla Tower", "A/ARC-3 特斯拉塔", "DEFENSIVE", "DURULR", "st_br_tesla_tower"));
+        all.add(new Stratagem("br_grenadier_battlement", "E/GL-21 Grenadier Battlement", "E/GL-21 掷弹兵防卫墙", "DEFENSIVE", "DRDLR", "st_br_grenadier_battlement"));
+        all.add(new Stratagem("eb_anti_personnel_minefield", "MD-6 Anti-Personnel Minefield", "MD-6 反步兵雷区", "DEFENSIVE", "DLUR", "st_eb_anti_personnel_minefield"));
+        all.add(new Stratagem("eb_anti_tank_mines", "MD-17 Anti-Tank Mines", "MD-17 反坦克地雷", "DEFENSIVE", "DLUU", "st_eb_anti_tank_mines"));
+        all.add(new Stratagem("supply_pack", "B-1 Supply Pack", "B-1 补给背包", "BACKPACK", "DLDUUD", "st_eb_supply_pack"));
+        all.add(new Stratagem("eb_grenade_launcher", "GL-21 Grenade Launcher", "GL-21 榴弹发射器", "SUPPORT", "DLULD", "st_eb_grenade_launcher"));
+        all.add(new Stratagem("eb_laser_cannon", "LAS-98 Laser Cannon", "LAS-98 激光大炮", "SUPPORT", "DLDUL", "st_eb_laser_cannon"));
+        all.add(new Stratagem("eb_incendiary_mines", "MD-I4 Incendiary Mines", "MD-I4 燃烧地雷", "DEFENSIVE", "DLLD", "st_eb_incendiary_mines"));
+        all.add(new Stratagem("guard_dog_rover", "AX/LAS-5 Rover", "AX/LAS-5 漫游车", "BACKPACK", "DULURR", "st_eb_guard_dog_rover"));
+        all.add(new Stratagem("ballistic_shield", "SH-20 Ballistic Shield Backpack", "SH-20 防弹护盾背包", "BACKPACK", "DLDDUL", "st_eb_ballistic_shield_backpack"));
+        all.add(new Stratagem("eb_arc_thrower", "ARC-3 Arc Thrower", "ARC-3 电弧发射器", "SUPPORT", "DRDULL", "st_eb_arc_thrower"));
+        all.add(new Stratagem("eb_quasar_cannon", "LAS-99 Quasar Cannon", "LAS-99 类星体加农炮", "SUPPORT", "DDULR", "st_eb_quasar_cannon"));
+        all.add(new Stratagem("shield_pack", "SH-32 Shield Generator Pack", "SH-32 防护罩生成包", "BACKPACK", "DULRLR", "st_eb_shield_generator_pack"));
+        all.add(new Stratagem("eb_gas_mine", "MD-8 Gas Mines", "MD-8 毒气地雷", "DEFENSIVE", "DLLR", "st_eb_gas_mine"));
+        all.add(new Stratagem("mg_sentry", "A/MG-43 Machine Gun Sentry", "A/MG-43 哨戒机枪", "SENTRY", "DURRU", "st_rw_machine_gun_sentry"));
+        all.add(new Stratagem("gatling_sentry", "A/G-16 Gatling Sentry", "A/G-16 加特林哨戒炮", "SENTRY", "DURL", "st_rw_gatling_sentry"));
+        all.add(new Stratagem("mortar_sentry", "A/M-12 Mortar Sentry", "A/M-12 迫击哨戒炮", "SENTRY", "DURRD", "st_rw_mortar_sentry"));
+        all.add(new Stratagem("guard_dog", "AX/AR-23 Guard Dog", "AX/AR-23 “护卫犬”", "BACKPACK", "DULURD", "st_rw_guard_dog"));
+        all.add(new Stratagem("ac_sentry", "A/AC-8 Autocannon Sentry", "A/AC-8 自动哨戒炮", "SENTRY", "DURULU", "st_rw_autocannon_sentry"));
+        all.add(new Stratagem("rocket_sentry", "A/MLS-4X Rocket Sentry", "A/MLS-4X 火箭哨戒炮", "SENTRY", "DURRL", "st_rw_rocket_sentry"));
+        all.add(new Stratagem("ems_mortar", "A/M-23 EMS Mortar Sentry", "A/M-23 电磁冲击波迫击哨戒炮", "SENTRY", "DURDR", "st_rw_ems_mortar_sentry"));
+        all.add(new Stratagem("rw_patriot_exosuit", "EXO-45 Patriot Exosuit", "EXO-45 “爱国者”外骨骼装甲", "DEFENSIVE", "LDRULDD", "st_rw_patriot_exosuit"));
+        all.add(new Stratagem("rw_emancipator_exosuit", "EXO-49 Emancipator Exosuit", "EXO-49 “解放者”外骨骼装甲", "DEFENSIVE", "LDRULDU", "st_rw_emancipator_exosuit"));
+        all.add(new Stratagem("ot_sterilizer", "TX-41 Sterilizer", "TX-41 灭菌器", "SUPPORT", "DLUDL", "st_ot_sterilizer"));
+        all.add(new Stratagem("ot_guard_dog_breath", "AX/TX-13 Dog Breath", "AX/TX-13 腐息", "BACKPACK", "DULURU", "st_ot_guard_dog_breath"));
+        all.add(new Stratagem("ot_directional_shield", "SH-51 Directional Shield", "SH-51 定向护盾", "BACKPACK", "DULRUU", "st_ot_directional_shield"));
+        all.add(new Stratagem("ot_flame_sentry", "A/FLAM-40 Flame Sentry", "A/FLAM-40 火焰喷射哨戒炮", "SENTRY", "DURDUU", "st_ot_flame_sentry"));
+        all.add(new Stratagem("ot_anti_tank_emplacement", "E/AT-12 Anti-Tank Emplacement", "E/AT-12 反坦克炮台", "DEFENSIVE", "DULRRR", "st_ot_anti_tank_emplacement"));
+        all.add(new Stratagem("ot_hellbomb_portable", "B-100 Portable Hellbomb", "B-100 便携式地狱火炸弹", "BACKPACK", "DRUUU", "st_ot_hellbomb_portable"));
+        all.add(new Stratagem("ot_hover_pack", "LIFT-860 Hover Pack", "LIFT-860 悬浮背包", "BACKPACK", "DUUDLR", "st_ot_hover_pack"));
+        all.add(new Stratagem("ot_one_true_flag", "CQC-1 One True Flag", "CQC-1 唯一真旗", "MISSION", "DLRRU", "st_ot_one_true_flag"));
+        all.add(new Stratagem("ot_gl_52_de_escalator", "GL-52 De-Escalator", "GL-52 缓和使者", "SUPPORT", "DRULR", "st_ot_gl_52_de_escalator"));
+        all.add(new Stratagem("ot_guard_dog_k_9", "AX/ARC-3 K-9", "AX/ARC-3 K-9", "BACKPACK", "DULURL", "st_ot_guard_dog_k_9"));
+        all.add(new Stratagem("ot_warp_pack", "LIFT-182 Warp Pack", "LIFT-182 传送背包", "BACKPACK", "DLRDLR", "st_ot_warp_pack"));
+        all.add(new Stratagem("ot_laser_sentry", "A/LAS-98 Laser Sentry", "A/LAS-98 激光哨戒炮", "SENTRY", "DURDUR", "st_ot_laser_sentry"));
+        all.add(new Stratagem("ot_epoch", "PLAS-45 Epoch", "PLAS-45 纪元", "SUPPORT", "DLULR", "st_ot_epoch"));
+        all.add(new Stratagem("ot_expendable_napalm", "EAT-700 Expendable Napalm", "EAT-700 消耗性凝固汽油弹", "SUPPORT", "DDLUL", "st_ot_expendable_napalm"));
+        all.add(new Stratagem("ot_solo_silo", "MS-11 Solo Silo", "MS-11 单兵导弹发射井", "SUPPORT", "DURDD", "st_ot_solo_silo"));
+        all.add(new Stratagem("ot_speargun", "S-11 Speargun", "S-11 矛枪", "SUPPORT", "DRDLUR", "st_ot_speargun"));
+        all.add(new Stratagem("ot_defoliation_tool", "CQC-9 Defoliation Tool", "CQC-9 除叶工具", "SUPPORT", "DLRRD", "st_ot_defoliation_tool"));
+        all.add(new Stratagem("ot_guard_dog_hot_dog", "AX/FLAM-75 Hot Dog", "AX/FLAM-75 热狗", "BACKPACK", "DULULL", "st_ot_guard_dog_hot_dog"));
+        all.add(new Stratagem("ot_maxigun", "M-1000 Maxigun", "M-1000 重装机枪", "SUPPORT", "DLRDUU", "st_ot_maxigun"));
+        all.add(new Stratagem("ot_c4_pack", "B/MD C4 Pack", "B/MD C4背包", "BACKPACK", "DRUURU", "st_ot_c4_pack"));
+        all.add(new Stratagem("ot_gl_28", "GL-28 Belt-Fed Grenade Launcher", "GL-28 弹链式榴弹发射器", "SUPPORT", "DLULUU", "st_ot_gl_28"));
+        all.add(new Stratagem("ot_eat_411", "EAT-411 Leveller", "EAT-411 荡平者", "SUPPORT", "DDLUD", "st_ot_eat_411"));
+        all.add(new Stratagem("ot_cqc_20", "CQC-20 Breaching Hammer", "CQC-20 破门锤", "SUPPORT", "DLRLU", "st_ot_cqc_20"));
+        all.add(new Stratagem("ot_cremator", "B/FLAM-80 Cremator", "B/FLAM-80 焚燃者", "SUPPORT", "DDRDUU", "st_ot_cremator"));
+        all.add(new Stratagem("ot_gas_mortar_sentry", "A/GM-17 Gas Mortar Sentry", "A/GM-17 瓦斯迫击哨戒炮", "SENTRY", "DURDL", "st_ot_gas_mortar_sentry"));
+        all.add(new Stratagem("ot_supply_frv", "M-103 Supply FRV", "M-103 补给型快速侦察载具", "SUPPORT", "LDLLDUR", "st_ot_supply_frv"));
+        all.add(new Stratagem("ot_incinerator_frv", "M-104 Incinerator FRV", "M-104 炽灼型快速侦察载具", "SUPPORT", "LDRLDUU", "st_ot_incinerator_frv"));
+        all.add(new Stratagem("ot_breakthrough_exosuit", "EXO-55 Breakthrough Exosuit", "EXO-55 “突破”外骨骼装甲", "DEFENSIVE", "LDRLRDU", "st_ot_breakthrough_exosuit"));
+        all.add(new Stratagem("ot_lumberer_exosuit", "EXO-51 Lumberer Exosuit", "EXO-51 “伐木者”外骨骼装甲", "DEFENSIVE", "LDRURLU", "st_ot_lumberer_exosuit"));
+        all.add(new Stratagem("ot_bullet_storm", "MGX-42 Bullet Storm", "MGX-42 子弹风暴", "SUPPORT", "DLDRUL", "st_ot_bullet_storm"));
+        all.add(new Stratagem("eagle_fly_by", "Eagle Fly By", "“飞鹰”掠过", "OFFENSIVE", "UDDUUDDUU", "st_eg_eagle_strafing_run"));
+        all.add(new Stratagem("eagle_gas_airstrike", "Eagle Gas Airstrike", "“飞鹰”毒气空袭", "OFFENSIVE", "URLR", "st_br_orbital_gas_strike"));
+        all.add(new Stratagem("pac_meltagun", "40-K Meltagun", "40-K 热熔枪", "SUPPORT", "DLULLD", "st_pac_flamethrower"));
+        all.add(new Stratagem("pac_apex", "AMW-20 Apex", "AMW-20 尖峰", "SUPPORT", "DLLUDL", "st_pac_anti_materiel_rifle"));
+        all.add(new Stratagem("pac_nova", "LAS-44 Nova", "LAS-44 新星", "SUPPORT", "DLRDD", "st_eb_laser_cannon"));
+        all.add(new Stratagem("eg_maelstrom", "TD-110 Maelstrom", "TD-110 风暴漩涡", "SUPPORT", "LDRDLDULR", "st_eg_fast_recon_vehicle"));
+        all.add(new Stratagem("ge_portable_comms_relay", "Portable Comms Relay", "便携式通信中继站", "MISSION", "UUDDLLD", "st_ge_cargo_container"));
+        all.add(new Stratagem("ge_prospecting_drill", "Prospecting Drill", "勘探钻机", "MISSION", "DDLRDD", "st_ge_tectonic_drill"));
+        all.add(new Stratagem("ge_seize_industrial_complex", "Seize Industrial Complex", "占领工业联合体", "MISSION", "DDDDDUU", "st_ge_upload_data"));
+        all.add(new Stratagem("ge_sssd_delivery", "SSSD Delivery", "运送超级固态硬盘", "MISSION", "DDDDDUU", "st_ge_upload_data"));
+        all.add(new Stratagem("ge_aquifer_drill", "Aquifer Drill", "含水层钻机", "MISSION", "LLLUDRDD", "st_ge_tectonic_drill"));
+        all.add(new Stratagem("ge_e711_extraction_drill", "Activate E-711 Extraction Drill", "启动E-711提取钻机", "MISSION", "DDLLDD", "st_ge_tectonic_drill"));
+        all.add(new Stratagem("ge_tactical_video_camera", "Tactical Video Camera", "战术摄像机", "MISSION", "RDDULLU", "st_ge_seismic_probe"));
+        all.add(new Stratagem("oc_orbital_confetti", "Orbital Confetti", "轨道彩纸秀", "OFFENSIVE", "RDDUUDDUU", "st_oc_orbital_napalm_barrage"));
+        ALL = Collections.unmodifiableList(all);
+    }
+
+    private StratagemCatalog() {}
+
+    public static Stratagem find(String id) {
+        for (Stratagem s : ALL) if (s.id.equals(id)) return s;
+        return null;
+    }
+}
