@@ -8,6 +8,39 @@
 [Helldivers Wiki](https://helldivers.wiki.gg/zh/wiki/%E6%88%98%E7%95%A5%E9%85%8D%E5%A4%87) 校正，
 共 119 条。原生 Android Canvas 实现，不依赖 WebView / Capacitor，可完全离线游玩。
 
+## 界面
+
+<table>
+  <tr>
+    <td align="center" width="170"><img src="tools/screenshot/app/shots/01-menu.png" width="170" alt="主菜单"><br><sub>主菜单：经典 / 效果 / 自由呼叫</sub></td>
+    <td align="center" width="170"><img src="tools/screenshot/app/shots/04-classic.png" width="170" alt="经典模式"><br><sub>经典模式</sub></td>
+    <td align="center" width="170"><img src="tools/screenshot/app/shots/05-effect-none.png" width="170" alt="效果模式"><br><sub>效果模式</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="170"><img src="tools/screenshot/app/shots/05-effect-multilines.png" width="170" alt="多行模式"><br><sub>多行模式</sub></td>
+    <td align="center" width="170"><img src="tools/screenshot/app/shots/06-catalog.png" width="170" alt="战备图鉴"><br><sub>战备图鉴（119 条）</sub></td>
+    <td align="center" width="170"><img src="tools/screenshot/app/shots/12-pause.png" width="170" alt="暂停"><br><sub>暂停与设置</sub></td>
+  </tr>
+</table>
+
+<details>
+<summary>更多截图：横屏、长屏与挖孔屏适配</summary>
+
+<table>
+  <tr>
+    <td align="center"><img src="tools/screenshot/app/shots/20-landscape-menu.png" width="360" alt="横屏主菜单"><br><sub>横屏主菜单</sub></td>
+    <td align="center"><img src="tools/screenshot/app/shots/23-landscape-greatwall.png" width="360" alt="横屏长城模式"><br><sub>横屏长城模式</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="tools/screenshot/app/shots/53-tall-classic.png" width="170" alt="长屏经典模式"><br><sub>20:9 长屏</sub></td>
+    <td align="center"><img src="tools/screenshot/app/shots/61-cutout-landscape-menu.png" width="360" alt="挖孔屏横屏"><br><sub>挖孔屏横屏安全区</sub></td>
+  </tr>
+</table>
+
+全部 60 余张截图（含短屏、平板、安全区与各模式细节）见 [`tools/screenshot/app/shots/`](tools/screenshot/app/shots)。
+
+</details>
+
 ## 安装
 
 APK：`dist/StratagemHero-1.2.apk`（约 7.9 MB，Android 8.0+，minSdk 26，targetSdk 34）
