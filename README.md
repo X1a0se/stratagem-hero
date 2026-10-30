@@ -43,7 +43,8 @@
 
 ## 安装
 
-APK：`dist/StratagemHero-1.2.apk`（约 7.9 MB，Android 8.0+，minSdk 26，targetSdk 34）
+APK：`dist/StratagemHero-1.2.apk`（约 7.9 MB，Android 8.0+，minSdk 26，targetSdk 34），
+也可以直接从 [Releases](https://github.com/X1a0se/stratagem-hero/releases) 下载。
 
 ```bash
 adb install -r dist/StratagemHero-1.2.apk
