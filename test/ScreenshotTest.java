@@ -214,6 +214,34 @@ public class ScreenshotTest {
         capture(landscape, "62-cutout-landscape-effect-setup.png", SW, SH);
     }
 
+    @Test
+    public void wikiExtraIcons() throws Exception {
+        GameView view = newView(PW, PH);
+        String[] ids = {
+                "eagle_fly_by",
+                "eagle_gas_airstrike",
+                "pac_meltagun",
+                "pac_apex",
+                "pac_nova",
+                "eg_maelstrom",
+                "ge_portable_comms_relay",
+                "ge_prospecting_drill",
+                "ge_seize_industrial_complex",
+                "ge_sssd_delivery",
+                "ge_aquifer_drill",
+                "ge_e711_extraction_drill",
+                "ge_tactical_video_camera",
+                "oc_orbital_confetti"
+        };
+        for (String id : ids) {
+            setDetail(view, id);
+            capture(view, "70-detail-" + id + ".png", PW, PH);
+        }
+        invoke(view, "openCatalog", 0);
+        set(view, "catalogScroll", 100000f);
+        capture(view, "71-catalog-extras.png", PW, PH);
+    }
+
     private static GameView newView(int w, int h) {
         Application app = ApplicationProvider.getApplicationContext();
         GameView view = new GameView(app);

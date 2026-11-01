@@ -122,20 +122,20 @@ public final class StratagemCatalog {
         all.add(new Stratagem("ot_breakthrough_exosuit", "EXO-55 Breakthrough Exosuit", "EXO-55 “突破”外骨骼装甲", "DEFENSIVE", "LDRLRDU", "st_ot_breakthrough_exosuit"));
         all.add(new Stratagem("ot_lumberer_exosuit", "EXO-51 Lumberer Exosuit", "EXO-51 “伐木者”外骨骼装甲", "DEFENSIVE", "LDRURLU", "st_ot_lumberer_exosuit"));
         all.add(new Stratagem("ot_bullet_storm", "MGX-42 Bullet Storm", "MGX-42 子弹风暴", "SUPPORT", "DLDRUL", "st_ot_bullet_storm"));
-        all.add(new Stratagem("eagle_fly_by", "Eagle Fly By", "“飞鹰”掠过", "OFFENSIVE", "UDDUUDDUU", "st_eg_eagle_strafing_run"));
-        all.add(new Stratagem("eagle_gas_airstrike", "Eagle Gas Airstrike", "“飞鹰”毒气空袭", "OFFENSIVE", "URLR", "st_br_orbital_gas_strike"));
-        all.add(new Stratagem("pac_meltagun", "40-K Meltagun", "40-K 热熔枪", "SUPPORT", "DLULLD", "st_pac_flamethrower"));
-        all.add(new Stratagem("pac_apex", "AMW-20 Apex", "AMW-20 尖峰", "SUPPORT", "DLLUDL", "st_pac_anti_materiel_rifle"));
-        all.add(new Stratagem("pac_nova", "LAS-44 Nova", "LAS-44 新星", "SUPPORT", "DLRDD", "st_eb_laser_cannon"));
-        all.add(new Stratagem("eg_maelstrom", "TD-110 Maelstrom", "TD-110 风暴漩涡", "SUPPORT", "LDRDLDULR", "st_eg_fast_recon_vehicle"));
+        all.add(new Stratagem("eagle_fly_by", "Eagle Fly By", "“飞鹰”掠过", "OFFENSIVE", "UDDUUDDUU", "st_eg_eagle_airstrike"));
+        all.add(new Stratagem("eagle_gas_airstrike", "Eagle Gas Airstrike", "“飞鹰”毒气空袭", "OFFENSIVE", "URLR", "st_eg_eagle_gas_strike"));
+        all.add(new Stratagem("pac_meltagun", "40-K Meltagun", "40-K 热熔枪", "SUPPORT", "DLULLD", "st_pac_meltagun"));
+        all.add(new Stratagem("pac_apex", "AMW-20 Apex", "AMW-20 尖峰", "SUPPORT", "DLLUDL", "st_pac_apex"));
+        all.add(new Stratagem("pac_nova", "LAS-44 Nova", "LAS-44 新星", "SUPPORT", "DLRDD", "st_pac_nova"));
+        all.add(new Stratagem("eg_maelstrom", "TD-110 Maelstrom", "TD-110 风暴漩涡", "SUPPORT", "LDRDLDULR", "st_eg_maelstrom"));
         all.add(new Stratagem("ge_portable_comms_relay", "Portable Comms Relay", "便携式通信中继站", "MISSION", "UUDDLLD", "st_ge_cargo_container"));
-        all.add(new Stratagem("ge_prospecting_drill", "Prospecting Drill", "勘探钻机", "MISSION", "DDLRDD", "st_ge_tectonic_drill"));
-        all.add(new Stratagem("ge_seize_industrial_complex", "Seize Industrial Complex", "占领工业联合体", "MISSION", "DDDDDUU", "st_ge_upload_data"));
+        all.add(new Stratagem("ge_prospecting_drill", "Prospecting Drill", "勘探钻机", "MISSION", "DDLRDD", "st_ge_prospecting_drill"));
+        all.add(new Stratagem("ge_seize_industrial_complex", "Seize Industrial Complex", "占领工业联合体", "MISSION", "DDDDDUU", "st_ge_super_earth_flag"));
         all.add(new Stratagem("ge_sssd_delivery", "SSSD Delivery", "运送超级固态硬盘", "MISSION", "DDDDDUU", "st_ge_upload_data"));
-        all.add(new Stratagem("ge_aquifer_drill", "Aquifer Drill", "含水层钻机", "MISSION", "LLLUDRDD", "st_ge_tectonic_drill"));
-        all.add(new Stratagem("ge_e711_extraction_drill", "Activate E-711 Extraction Drill", "启动E-711提取钻机", "MISSION", "DDLLDD", "st_ge_tectonic_drill"));
-        all.add(new Stratagem("ge_tactical_video_camera", "Tactical Video Camera", "战术摄像机", "MISSION", "RDDULLU", "st_ge_seismic_probe"));
-        all.add(new Stratagem("oc_orbital_confetti", "Orbital Confetti", "轨道彩纸秀", "OFFENSIVE", "RDDUUDDUU", "st_oc_orbital_napalm_barrage"));
+        all.add(new Stratagem("ge_aquifer_drill", "Aquifer Drill", "含水层钻机", "MISSION", "LLLUDRDD", "st_ge_drill"));
+        all.add(new Stratagem("ge_e711_extraction_drill", "Activate E-711 Extraction Drill", "启动E-711提取钻机", "MISSION", "DDLLDD", "st_ge_drill"));
+        all.add(new Stratagem("ge_tactical_video_camera", "Tactical Video Camera", "战术摄像机", "MISSION", "RDDULLU", "st_ge_tactical_video_camera"));
+        all.add(new Stratagem("oc_orbital_confetti", "Orbital Confetti", "轨道彩纸秀", "OFFENSIVE", "RDDUUDDUU", "st_br_orbital_precision_strike"));
         ALL = Collections.unmodifiableList(all);
     }
 

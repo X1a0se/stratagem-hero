@@ -14,6 +14,7 @@ public final class LogicTest {
 
     public static void main(String[] args) {
         catalogIntegrity();
+        catalogIconMappings();
         voiceCueCoverage();
         sessionVoiceCue();
         audioGainAndRoundCompletePicker();
@@ -49,6 +50,30 @@ public final class LogicTest {
                 && near(ClassicSession.getRoundTime(2), 15f / (float) Math.pow(2, 0.3)));
         check("effect round time", near(EffectSession.getSingleTimerMax(1), 8f)
                 && near(EffectSession.getSingleTimerMax(2), 8f / (float) Math.pow(2, 0.15)));
+    }
+
+    private static void catalogIconMappings() {
+        String[][] expected = {
+                {"eagle_fly_by", "st_eg_eagle_airstrike"},
+                {"eagle_gas_airstrike", "st_eg_eagle_gas_strike"},
+                {"pac_meltagun", "st_pac_meltagun"},
+                {"pac_apex", "st_pac_apex"},
+                {"pac_nova", "st_pac_nova"},
+                {"eg_maelstrom", "st_eg_maelstrom"},
+                {"ge_portable_comms_relay", "st_ge_cargo_container"},
+                {"ge_prospecting_drill", "st_ge_prospecting_drill"},
+                {"ge_seize_industrial_complex", "st_ge_super_earth_flag"},
+                {"ge_sssd_delivery", "st_ge_upload_data"},
+                {"ge_aquifer_drill", "st_ge_drill"},
+                {"ge_e711_extraction_drill", "st_ge_drill"},
+                {"ge_tactical_video_camera", "st_ge_tactical_video_camera"},
+                {"oc_orbital_confetti", "st_br_orbital_precision_strike"}
+        };
+        for (String[] row : expected) {
+            Stratagem s = StratagemCatalog.find(row[0]);
+            check("icon mapping " + row[0],
+                    s != null && row[1].equals(s.assetName));
+        }
     }
 
     private static void voiceCueCoverage() {

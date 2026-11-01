@@ -37,7 +37,7 @@
   </tr>
 </table>
 
-全部 60 余张截图（含短屏、平板、安全区与各模式细节）见 [`tools/screenshot/app/shots/`](tools/screenshot/app/shots)。
+全部 80 余张截图（含短屏、平板、安全区与各模式细节）见 [`tools/screenshot/app/shots/`](tools/screenshot/app/shots)。
 
 </details>
 
@@ -167,13 +167,19 @@ adb install -r dist/StratagemHero-1.2.apk
 
 - 119 条战备：其中 105 条的名称、中文名、分类、呼叫代码与图标资源名来自
   HD2-Stratagem-Hero-Mobile；另外 14 条（如“飞鹰”掠过、40-K 热熔枪、勘探钻机等）来自
-  Helldivers Wiki。补充战备复用现有相近图标，未新增图标文件。
+  Helldivers Wiki。14 条补充战备中，6 条使用社区图标集的专属图标，2 条（含水层钻机、
+  E-711 提取钻机）共用 Wiki 的钻头图标，战术摄像机使用 Wiki 的摄像机图标；其余：
+  “飞鹰”掠过复用“飞鹰”空袭图标，轨道彩纸秀复用轨道精准攻击图标，便携式通信中继站、
+  占领工业联合体、运送超级固态硬盘沿用 Wiki 的官方 fallback 图标。
 - 全部中文名称与呼叫代码按 Helldivers Wiki 中文版（2026-10-29 快照）校正，包括“重新补给”、
   “S.O.S.求救信标”、“飞鹰”110MM火箭巢等写法；英文名称按英文版校正。
 - Wiki 文本以 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 提供；
-  本项目仅使用其中的简短战备名称与代码，并保持非商业、非官方性质。
-- 105 个 VectorDrawable 图标来自社区维护的 Helldivers 2 战备图标集；29 个 OGG
-  （12 个界面/回合音效与 17 条基础语音）与 1.0 的播放逻辑来自 HDWearStrategy（MIT）。
+  本项目的战备名称与代码取自其中，两个补充图标转换自 Wiki 托管的战备图标 SVG，
+  游戏美术版权仍归 Arrowhead / Sony。本项目保持非商业、非官方性质。
+- 基础 105 个 VectorDrawable 图标与 6 个补充图标来自社区维护的 Helldivers 2 战备图标集；
+  另有 2 个补充图标（钻头、战术摄像机）转换自 Helldivers Wiki 的战备图标 SVG。
+  基础 29 个 OGG（12 个界面/回合音效与 17 条基础语音）与 1.0 的播放逻辑来自
+  HDWearStrategy（MIT）。
   新增 48 条语音下载自社区整理的
   [aido727/HD2-buttons-soundboard-app](https://github.com/aido727/HD2-buttons-soundboard-app)
   （`public/audio/voices`），语音命名与分组参考
@@ -200,12 +206,12 @@ zipalign → apksigner。生成 `dist/StratagemHero-1.2.apk`（versionCode 3、v
 
 ## 测试
 
-纯 JVM 规则测试（139 项检查，覆盖目录完整性、语音映射、音量映射、通关音交替、经典模式、五种效果、一错即死与自由呼叫）：
+纯 JVM 规则测试（153 项检查，覆盖目录完整性、图标映射、语音映射、音量映射、通关音交替、经典模式、五种效果、一错即死与自由呼叫）：
 
 ```bash
 JDK="/path/to/jdk17"
 "$JDK/bin/javac" -encoding UTF-8 -d build/logictest \
-  app/src/com/stratagemhero/mobile/{Direction,Stratagem,ClassicSession,EffectSession,EffectMode,GameSession,StratagemCatalog,VoiceCue,AudioGain,RoundCompletePicker}.java \
+  app/src/com/stratagemhero/mobile/{Direction,Stratagem,GameSession,HeroSession,StratagemCatalog,ClassicSession,EffectMode,EffectSession,RoundCompletePicker,VoiceCue,AudioGain}.java \
   test/LogicTest.java
 "$JDK/bin/java" -cp build/logictest com.stratagemhero.mobile.LogicTest
 ```

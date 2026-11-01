@@ -34,6 +34,14 @@ entries are taken from https://github.com/ILCNa/HD2-Stratagem-Hero-Mobile. The 1
 icons ultimately come from the Helldivers 2 community icon set by nvigneux
 (https://github.com/nvigneux/Helldivers-2-Stratagems-icons-svg).
 
+Six additional icons for the wiki-only stratagems (Eagle Gas Strike, 40-K Meltagun, AMW-20 Apex,
+LAS-44 Nova, TD-110 Maelstrom, Prospecting Drill) also come from that community set. Two more
+(Drill and Tactical Video Camera) were converted from stratagem icon SVGs hosted on the Helldivers
+Wiki; the Drill icon is shared by Aquifer Drill and Activate E-711 Extraction Drill. Where the wiki
+has no distinct icon (Portable Comms Relay, Seize Industrial Complex, SSSD Delivery), the official
+fallback icon is reused; Eagle Fly By and Orbital Confetti reuse the existing Eagle Airstrike and
+Orbital Precision Strike icons.
+
 ## Helldivers Wiki
 
 Names and call-in codes were checked against the Helldivers Wiki, and 14 additional stratagems were
@@ -42,9 +50,12 @@ https://helldivers.wiki.gg/zh/wiki/%E6%88%98%E7%95%A5%E9%85%8D%E5%A4%87
 
 English names were checked against https://helldivers.wiki.gg/wiki/Stratagems.
 
-The wiki's text is available under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0
-License (https://creativecommons.org/licenses/by-nc-sa/4.0/). This project only reuses short
-stratagem names and codes and remains an unofficial, non-commercial fan work.
+Two additional VectorDrawable icons (Drill and Tactical Video Camera) were converted from
+stratagem icon SVGs hosted on the wiki. The wiki's text is available under the Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 License
+(https://creativecommons.org/licenses/by-nc-sa/4.0/). This project reuses short stratagem names,
+codes and those two icon SVGs, and remains an unofficial, non-commercial fan work; the underlying
+game art remains the property of Arrowhead Game Studios AB / Sony Interactive Entertainment.
 
 ## Community audio sources
 

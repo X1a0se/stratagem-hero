@@ -5,7 +5,7 @@
     "nameZh": "“飞鹰”掠过",
     "category": "OFFENSIVE",
     "code": "UDDUUDDUU",
-    "icon": "st_eg_eagle_strafing_run",
+    "icon": "st_eg_eagle_airstrike",
     "group": "wiki_extra"
   },
   {
@@ -14,7 +14,7 @@
     "nameZh": "“飞鹰”毒气空袭",
     "category": "OFFENSIVE",
     "code": "URLR",
-    "icon": "st_br_orbital_gas_strike",
+    "icon": "st_eg_eagle_gas_strike",
     "group": "wiki_extra"
   },
   {
@@ -23,7 +23,7 @@
     "nameZh": "40-K 热熔枪",
     "category": "SUPPORT",
     "code": "DLULLD",
-    "icon": "st_pac_flamethrower",
+    "icon": "st_pac_meltagun",
     "group": "wiki_extra"
   },
   {
@@ -32,7 +32,7 @@
     "nameZh": "AMW-20 尖峰",
     "category": "SUPPORT",
     "code": "DLLUDL",
-    "icon": "st_pac_anti_materiel_rifle",
+    "icon": "st_pac_apex",
     "group": "wiki_extra"
   },
   {
@@ -41,7 +41,7 @@
     "nameZh": "LAS-44 新星",
     "category": "SUPPORT",
     "code": "DLRDD",
-    "icon": "st_eb_laser_cannon",
+    "icon": "st_pac_nova",
     "group": "wiki_extra"
   },
   {
@@ -50,7 +50,7 @@
     "nameZh": "TD-110 风暴漩涡",
     "category": "SUPPORT",
     "code": "LDRDLDULR",
-    "icon": "st_eg_fast_recon_vehicle",
+    "icon": "st_eg_maelstrom",
     "group": "wiki_extra"
   },
   {
@@ -68,7 +68,7 @@
     "nameZh": "勘探钻机",
     "category": "MISSION",
     "code": "DDLRDD",
-    "icon": "st_ge_tectonic_drill",
+    "icon": "st_ge_prospecting_drill",
     "group": "wiki_extra"
   },
   {
@@ -77,7 +77,7 @@
     "nameZh": "占领工业联合体",
     "category": "MISSION",
     "code": "DDDDDUU",
-    "icon": "st_ge_upload_data",
+    "icon": "st_ge_super_earth_flag",
     "group": "wiki_extra"
   },
   {
@@ -95,7 +95,7 @@
     "nameZh": "含水层钻机",
     "category": "MISSION",
     "code": "LLLUDRDD",
-    "icon": "st_ge_tectonic_drill",
+    "icon": "st_ge_drill",
     "group": "wiki_extra"
   },
   {
@@ -104,7 +104,7 @@
     "nameZh": "启动E-711提取钻机",
     "category": "MISSION",
     "code": "DDLLDD",
-    "icon": "st_ge_tectonic_drill",
+    "icon": "st_ge_drill",
     "group": "wiki_extra"
   },
   {
@@ -113,7 +113,7 @@
     "nameZh": "战术摄像机",
     "category": "MISSION",
     "code": "RDDULLU",
-    "icon": "st_ge_seismic_probe",
+    "icon": "st_ge_tactical_video_camera",
     "group": "wiki_extra"
   },
   {
@@ -122,7 +122,7 @@
     "nameZh": "轨道彩纸秀",
     "category": "OFFENSIVE",
     "code": "RDDUUDDUU",
-    "icon": "st_oc_orbital_napalm_barrage",
+    "icon": "st_br_orbital_precision_strike",
     "group": "wiki_extra"
   }
 ]
